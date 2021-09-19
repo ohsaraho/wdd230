@@ -12,29 +12,30 @@ footer {
   margin: 0 auto;
 }
 
-header {
+h1 {
+  text-align: center;
+  font-family: "Sansita", serif;
   background-color: #24687f;
   padding: 20px 25px;
   color: white;
   font-size: 50px;
-  color: white;
-  text-align: center;
-  font-family: "Sansita", serif;
   border-radius: 10px;
+  margin: 0px;
 }
 
 header img {
   float: right;
-  padding-right: 6px;
+  padding-right: 20px;
 }
 
 img {
   max-width: 100%;
+  margin-top: 40px;
 }
 
 main {
   text-align: left;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 h2 {
@@ -45,7 +46,8 @@ h2 {
 
 footer {
   background-color: #164150;
-  padding: 20px 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
   text-align: center;
   font-family: "Sansita", serif;
