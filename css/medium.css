@@ -4,9 +4,12 @@
   }
 
   header,
-  main,
   footer {
     max-width: 960px;
+  }
+
+  main {
+    max-width: 900px;
   }
 
   header {
@@ -18,7 +21,7 @@
   }
 
   h2 {
-    font-size: 16pt;
+    font-size: 20pt;
   }
 
   footer {
