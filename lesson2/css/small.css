@@ -16,7 +16,6 @@ h2 {
   font-family: "Sansita", serif;
   padding-top: 8px;
   padding-bottom: 25px;
-  /* padding: 20px 25px; */
   color: white;
   font-size: 25pt;
   margin: 0px;
@@ -35,7 +34,24 @@ main section h3 {
   background-color: #e9806e;
   text-align: left;
   padding: 20px 25px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+main section h4,
+main section h5 {
+  font-family: "Roboto", Lato, sans-serif;
+  padding: 5px 25px;
+  text-align: left;
   margin: 0;
+}
+
+main section h4 {
+  font-size: 18px;
+}
+
+main section h5 {
+  font-size: 15px;
 }
 
 main {
@@ -53,13 +69,14 @@ main section p {
   font-size: 18px;
   padding-left: 18px;
   padding-right: 18px;
-  text-align: justify;
+  text-align: center;
 }
 
 img {
   max-width: 100%;
   display: block;
   border: 1px solid black;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -74,12 +91,12 @@ footer {
   font-size: 12pt;
 }
 
-p a {
+h5 a {
   color: black;
 }
 
 footer a:hover,
-p a:hover {
+h5 a:hover {
   color: #e9806e;
   text-decoration: none;
 }
