@@ -18,7 +18,7 @@ footer {
 }
 
 nav {
-  background-color: #79be60;
+  background-color: #f48a66;
   text-align: center;
 }
 
@@ -46,11 +46,11 @@ nav a:hover {
 main h2 {
   font-family: "Rubik", serif;
   padding: 30px;
-  color: #f48a66;
+  color: #79be60;
   font-size: 20pt;
   margin: 0;
   text-align: center;
-  border-bottom: 5px solid #f48a66;
+  border-bottom: 5px solid #79be60;
 }
 
 main h3 {
