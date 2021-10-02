@@ -1,0 +1,33 @@
+@media (min-width: 32.5em) {
+  nav ul {
+    display: flex;
+    align-items: center;
+    flex: auto;
+  }
+  nav ul li {
+    flex: 1 100%;
+  }
+  nav a:hover {
+    display: block;
+  }
+
+  main h2 {
+    font-size: 30pt;
+  }
+
+  nav ul li a {
+    font-size: 20pt;
+  }
+
+  header {
+    font-size: 23pt;
+  }
+
+  main {
+    max-width: 767px;
+  }
+
+  main p {
+    font-size: 25px;
+  }
+}

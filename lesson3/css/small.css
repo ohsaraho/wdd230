@@ -1,0 +1,128 @@
+header {
+  background-color: #069b9d;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-family: "Rubik", serif;
+  color: white;
+  font-size: 15pt;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  height: auto;
+}
+
+nav {
+  background-color: #79be60;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: "Rubik", serif;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main h2 {
+  font-family: "Rubik", serif;
+  padding: 30px;
+  color: #f48a66;
+  font-size: 20pt;
+  margin: 0;
+  text-align: center;
+  border-bottom: 5px solid #f48a66;
+}
+
+main h3 {
+  font-family: "Rubik", serif;
+  padding: 10px;
+  color: white;
+  font-size: 18pt;
+  margin: 0;
+  text-align: center;
+}
+
+main p {
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+main a {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20pt;
+  margin: 0;
+  font-family: "Comfortaa", Lato, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+main a:hover {
+  color: #79be60;
+  text-decoration: none;
+}
+
+main ul li {
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 14pt;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px 2px #dc9b7f;
+}
+
+footer {
+  background-color: #069b9d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  text-align: center;
+  font-family: "Rubik", serif;
+  font-size: 12pt;
+}
+
+footer a:hover,
+h5 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer a {
+  color: black;
+}

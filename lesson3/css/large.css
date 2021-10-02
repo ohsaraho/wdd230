@@ -1,0 +1,12 @@
+@media (min-width: 60em) {
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 1080px;
+  }
+
+  main {
+    max-width: 767px;
+  }
+}
