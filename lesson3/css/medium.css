@@ -30,4 +30,12 @@
   main p {
     font-size: 25px;
   }
+
+  main h3 {
+    font-size: 22pt;
+  }
+
+  main ul li {
+    font-size: 18pt;
+  }
 }
