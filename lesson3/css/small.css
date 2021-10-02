@@ -1,5 +1,5 @@
 header {
-  background-color: #069b9d;
+  background-color: #05888a;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 25px;
@@ -18,7 +18,7 @@ footer {
 }
 
 nav {
-  background-color: #f48a66;
+  background-color: #62ae47;
   text-align: center;
 }
 
@@ -46,11 +46,11 @@ nav a:hover {
 main h2 {
   font-family: "Rubik", serif;
   padding: 30px;
-  color: #79be60;
+  color: #f26d40;
   font-size: 20pt;
   margin: 0;
   text-align: center;
-  border-bottom: 5px solid #79be60;
+  border-bottom: 5px solid #f26d40;
 }
 
 main h3 {
@@ -83,7 +83,7 @@ main a {
 }
 
 main a:hover {
-  color: #79be60;
+  color: #62ae47;
   text-decoration: none;
 }
 
@@ -104,11 +104,11 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 2px 2px 2px 2px #dc9b7f;
+  box-shadow: 2px 2px 2px 2px #cf754f;
 }
 
 footer {
-  background-color: #069b9d;
+  background-color: #05888a;
   padding-top: 20px;
   padding-bottom: 20px;
   color: black;
