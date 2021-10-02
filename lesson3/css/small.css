@@ -111,7 +111,7 @@ footer {
   background-color: #047476;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: black;
+  color: white;
   text-align: center;
   font-family: "Rubik", serif;
   font-size: 12pt;
@@ -119,10 +119,10 @@ footer {
 
 footer a:hover,
 h5 a:hover {
-  color: white;
+  color: #ca693f;
   text-decoration: none;
 }
 
 footer a {
-  color: black;
+  color: white;
 }
