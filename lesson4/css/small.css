@@ -1,6 +1,6 @@
 header {
   background-color: #047476;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 25px;
   display: flex;
   align-items: center;
@@ -97,11 +97,15 @@ main h2 {
 footer {
   background-color: #047476;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   color: white;
   text-align: center;
-  font-family: "Comfortaa", Lato, sans-serif;
+  font-family: "Rubik", serif;
   font-size: 8pt;
+}
+
+footer span {
+  font-size: 10pt;
 }
 
 .responsive li {

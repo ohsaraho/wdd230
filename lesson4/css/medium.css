@@ -26,4 +26,8 @@
   footer {
     font-size: 10pt;
   }
+
+  footer span {
+    font-size: 12pt;
+  }
 }
