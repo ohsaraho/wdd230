@@ -1,0 +1,156 @@
+header {
+  background-color: #047476;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+.headings h1 {
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  margin: 0 0 0 10px;
+  font-family: "Rubik", serif;
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.motto {
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-style: italic;
+  color: white;
+  font-size: 9pt;
+  text-align: center;
+  padding-top: 8px;
+  margin-left: 20px;
+}
+
+header img {
+  /* padding-right: 10px;
+  padding-left: 20px; */
+  width: 65px;
+  height: auto;
+}
+
+.placeholder,
+main h2 {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 960px;
+  background-color: #5a9f41;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: "Rubik", serif;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: #ca693f;
+}
+
+main h2 {
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 22pt;
+  padding: 15px;
+  text-align: center;
+  color: #f05e2d;
+}
+
+.placeholder {
+  font-family: "Rubik", serif;
+  font-size: 14pt;
+  border: 2px dashed #ca693f;
+  padding: 20px 20px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #047476;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 8pt;
+}
+
+/* footer a:hover,
+h5 a:hover {
+  color: #ca693f;
+  text-decoration: none;
+}
+
+footer a {
+  color: white;
+} */
+
+/* nav {
+  background-color: #5a9f41;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: "Rubik", serif;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+  color: white;
+  background-color: #ca693f;
+} */
+
+.responsive li {
+  display: block;
+}
+
+.responsive .ham {
+  background-color: #ca693f;
+  color: white;
+}

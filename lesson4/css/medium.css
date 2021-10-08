@@ -1,0 +1,29 @@
+@media only screen and (min-width: 32.5rem) {
+  header img {
+    width: 100px;
+  }
+
+  .headings h1 {
+    font-size: 35pt;
+  }
+  .motto {
+    font-size: 12pt;
+  }
+
+  .navigation a {
+    font-size: 18pt;
+  }
+
+  main h2 {
+    font-size: 28pt;
+  }
+
+  .placeholder {
+    border: 2px dashed #ca693f;
+    font-size: 16pt;
+  }
+
+  footer {
+    font-size: 10pt;
+  }
+}
