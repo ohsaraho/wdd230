@@ -5,6 +5,6 @@ const options = {
     year: "numeric",
     month: "long",
     day: "numeric"
-}
+};
 
 document.getElementById("datefooter").textContent = date.toLocaleDateString("en-UK", options);
