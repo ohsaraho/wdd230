@@ -16,6 +16,9 @@
 
 </head>
 <body>
+    <div id="bannerDayOfWeek" class="banner">
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 
+    </div>
     <header>
         <img src="images/weather_icon.png" alt="Weather logo">
         <section class="headings">
@@ -36,10 +39,75 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="placeholder">Hero w/ weather summary</div>
+        <!-- <div class="placeholder">Hero w/ weather summary</div>
         <div class="placeholder">5 Day Forecast</div>
         <div class="placeholder">Article</div>
-        <div class="placeholder">Contact Information</div>       
+        <div class="placeholder">Contact Information</div> -->
+        <div class="herodiv">
+            <img src="images/preston_town_mountains.jpg" alt="Preston town picture">
+            <section class="weather_sum">
+                <h2>Weather Summary</h2>
+                <p class="weather_sum_grid">
+                    Currently: <span id="current_weather">Sunny</span>
+                </p>
+                <p class="weather_sum_grid">
+                    High: <span id="high">76 °F</span>
+                </p>
+                <p class="weather_sum_grid">
+                    Wind Chill: <span id="wind_chill">°F</span>
+                </p>
+                <p class="weather_sum_grid">
+                    Humidity: <span id="humidity">69%</span>
+                </p>
+                <p class="weather_sum_grid">
+                    Wind Speed: <span id="wind_chill">5 mph</span>
+                </p>
+            </section>
+        </div>
+        <h3 class="forecast_title">5 Day Forecast</h3>
+        <div class="weather_grid">
+            <div class="grid-col">
+                <span class="col-head">Wed</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">89°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Thu</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">87°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Fri</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">78°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Sat</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">75°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Sun</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">72°F</span>
+            </div>
+        <div class="article_grid">
+            <div>
+                <h3>
+                    Article Title
+                </h3>
+                <h4>
+                    by Jane Doe
+                </h4>
+                <img src="images/panda_express.png" alt="Screenshot of Panda Express website">
+                <p>
+                    Panda Express has the menu bar stagnant at the bottom of the page which makes it very easy to navigate and the user will have all the options needed right infront of them always. That way the user will not have to search for them either all the way at the top of the page or clicking the hamburger menu which is very common for mobile designs. 
+                </p> 
+                <h5>
+                    <a href="#" target="_blank">continue to full article</a>
+                </h5>
+            </div>
+        </div>               
     </main>
     <footer>
         <h3>&copy; Weather Life Better | Attributions | Sarah Osguthorpe</h3>

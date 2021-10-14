@@ -3,6 +3,10 @@
     width: 100px;
   }
 
+  .banner {
+    font-size: 15pt;
+  }
+
   .headings h1 {
     font-size: 35pt;
   }
@@ -18,9 +22,74 @@
     font-size: 28pt;
   }
 
-  .placeholder {
-    border: 2px dashed #ca693f;
+  /* .weather_sum {
+    top: 20px;
+    left: 25px;
+  } */
+
+  .weather_sum h2 {
+    font-size: 14pt;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+
+  .weather_sum p {
+    font-size: 8pt;
+    font-family: "Comfortaa", Lato, sans-serif;
+    color: white;
+  }
+
+  .forecast_title {
+    display: block;
+    font-family: "Comfortaa", Lato, sans-serif;
+    padding-top: 20px;
+    /* padding-bottom: 0px; */
+    font-size: 30px;
+    /* font-size: 22pt;
+    padding: 20px 0px; */
+    text-align: center;
+    color: #f05e2d;
+  }
+
+  .col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid rgb(44, 44, 44);
+    text-align: center;
+    background-color: #047476;
+    font-size: 18pt;
+    color: white;
+    font-family: "Rubik", serif;
+  }
+
+  .weather_data {
+    display: block;
+    padding: 0 5px 5px;
     font-size: 16pt;
+    color: black;
+    font-family: "Comfortaa", Lato, sans-serif;
+  }
+
+  .weather_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    /* padding-top: 0px; */
+    padding-bottom: 25px;
+    /* padding: 25px 0px; */
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .weather_emoji {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid-col {
+    background-color: white;
+    border: 0.75px solid rgb(44, 44, 44);
+    text-align: center;
   }
 
   footer {

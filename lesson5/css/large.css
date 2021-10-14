@@ -35,9 +35,21 @@
     font-size: 30pt;
   }
 
-  .placeholder {
-    border: 2px dashed #ca693f;
+  /* .weather_sum {
+    top: 40px;
+    left: 45px;
+  } */
+
+  .weather_sum h2 {
     font-size: 18pt;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+
+  .weather_sum p {
+    font-size: 12pt;
+    font-family: "Comfortaa", Lato, sans-serif;
+    color: white;
   }
 
   footer {
