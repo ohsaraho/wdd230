@@ -92,6 +92,23 @@
     text-align: center;
   }
 
+  .article_area img {
+    float: right;
+    box-sizing: border-box;
+    /* padding-right: 20px; */
+  }
+
+  .article_area img {
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .article_area img {
+    clear: right;
+  }
+
   footer {
     font-size: 10pt;
   }
