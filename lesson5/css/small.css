@@ -148,7 +148,7 @@ main h2 {
 }
 
 .article_area {
-  margin-top: 40px;
+  margin-top: 45px;
   background-color: #e0a78f;
   padding: 10px 20px;
   border: 1px solid rgba(0, 0, 0, 0.75);
@@ -190,7 +190,7 @@ main h2 {
   font-family: "Comfortaa", Lato, sans-serif;
   font-size: 12pt;
   text-align: left;
-  color: #047476;
+  color: #f6e6df;
 }
 
 .contact_info {
