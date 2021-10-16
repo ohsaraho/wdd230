@@ -222,17 +222,25 @@ main h2 {
 }
 
 .contact_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: #d88e6f;
   margin-top: 30px;
   margin-bottom: 0px;
 }
 
-.contact_info .city_info h3 {
+/* .map {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+} */
+
+/* .contact_info .city_info h3 {
   padding-bottom: 0px;
 }
 
 .contact_info .city_info {
-  /* text-align: right; */
   font-family: "Comfortaa", Lato, sans-serif;
   overflow: hidden;
   text-decoration: none;
@@ -240,6 +248,14 @@ main h2 {
   padding-bottom: 3px;
   align-items: center;
 }
+
+.contact_info .icons {
+  float: right;
+  overflow: hidden;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 3px;
+} */
 
 footer {
   /* margin-top: 30px; */

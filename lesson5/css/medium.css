@@ -131,26 +131,26 @@
     clear: right;
   }
 
-  .contact_info img {
+  /* .contact_info img {
     display: block;
     float: left;
     box-sizing: border-box;
-    /* padding-right: 50px; */
+    padding-right: 50px;
     margin: 30px;
   }
 
-  .article_area img {
+  .contact_info img {
     clear: left;
   }
 
   .contact_info .city_info {
-    /* text-align: right; */
+    text-align: right;
     overflow: hidden;
     text-decoration: none;
     padding-top: 15px;
     padding-bottom: 20px;
     padding-right: 50px;
-  }
+  } */
 
   /* .contact_info .city_info img {
     display: inline-block;
