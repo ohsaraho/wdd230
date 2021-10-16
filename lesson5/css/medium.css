@@ -22,34 +22,6 @@
     font-size: 28pt;
   }
 
-  /* .navigation {
-    display: flex;
-    align-items: center;
-  }
-  .navigation li {
-    display: block;
-    flex: 1 1 auto;
-  }
-  .navigation a {
-    text-align: center;
-  }
-  .navigation li:first-child {
-    display: none;
-  }
-
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 0.8rem 1rem;
-    align-items: center;
-    justify-content: center;
-  } */
-
-  /* .weather_sum {
-    top: 20px;
-    left: 25px;
-  } */
-
   .weather_sum h2 {
     font-size: 14pt;
     color: white;
@@ -66,10 +38,7 @@
     display: block;
     font-family: "Comfortaa", Lato, sans-serif;
     padding-top: 20px;
-    /* padding-bottom: 0px; */
     font-size: 30px;
-    /* font-size: 22pt;
-    padding: 20px 0px; */
     text-align: center;
     color: #f05e2d;
   }
@@ -96,9 +65,7 @@
   .weather_grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    /* padding-top: 0px; */
     padding-bottom: 25px;
-    /* padding: 25px 0px; */
     max-width: 760px;
     margin-left: auto;
     margin-right: auto;
@@ -115,9 +82,19 @@
     text-align: center;
   }
 
+  .article_area {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .article_area img {
     float: right;
-    /* padding-right: 20px; */
+  }
+
+  .article_area img {
+    clear: right;
   }
 
   .article_area img {
@@ -127,34 +104,30 @@
     margin-bottom: 15px;
   }
 
-  .article_area img {
-    clear: right;
+  .contact_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #d88e6f;
   }
 
-  /* .contact_info img {
+  .map {
     display: block;
-    float: left;
+    margin: 25px;
     box-sizing: border-box;
-    padding-right: 50px;
-    margin: 30px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px rgb(53, 52, 52);
   }
 
-  .contact_info img {
-    clear: left;
+  .info .city_info,
+  .info .icons {
+    padding-left: 100px;
+    padding-right: 50px;
   }
 
-  .contact_info .city_info {
-    text-align: right;
-    overflow: hidden;
-    text-decoration: none;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-right: 50px;
-  } */
-
-  /* .contact_info .city_info img {
-    display: inline-block;
-  } */
+  .city_info li h3 {
+    padding-top: 33px;
+  }
 
   footer {
     font-size: 10pt;
