@@ -73,7 +73,7 @@ nav {
   display: none;
 }
 
-.navigation a {
+nav a {
   display: block;
   color: black;
   text-align: center;
@@ -84,7 +84,7 @@ nav {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.navigation a:hover {
+nav a:hover {
   color: white;
   background-color: #ca693f;
 }
@@ -221,8 +221,28 @@ main h2 {
   color: #047476;
 }
 
-footer {
+.contact_info {
+  background-color: #d88e6f;
   margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.contact_info .city_info h3 {
+  padding-bottom: 0px;
+}
+
+.contact_info .city_info {
+  /* text-align: right; */
+  font-family: "Comfortaa", Lato, sans-serif;
+  overflow: hidden;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 3px;
+  align-items: center;
+}
+
+footer {
+  /* margin-top: 30px; */
   background-color: #047476;
   padding-top: 10px;
   padding-bottom: 20px;
