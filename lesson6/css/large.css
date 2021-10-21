@@ -1,0 +1,70 @@
+@media only screen and (min-width: 60rem) {
+  header img {
+    width: 128px;
+  }
+
+  .headings h1 {
+    font-size: 40pt;
+  }
+  .motto {
+    font-size: 18pt;
+  }
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main h2 {
+    font-size: 30pt;
+  }
+
+  .weather_sum h2 {
+    font-size: 18pt;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+
+  .weather_sum p {
+    font-size: 12pt;
+    font-family: "Comfortaa", Lato, sans-serif;
+    color: white;
+  }
+
+  .map {
+    margin: 50px;
+  }
+
+  .info .city_info,
+  .info .icons {
+    padding-left: 120px;
+    padding-right: 50px;
+    font-size: 15pt;
+  }
+
+  .city_info li h3 {
+    padding-top: 100px;
+  }
+
+  footer {
+    font-size: 12pt;
+  }
+
+  footer span {
+    font-size: 14pt;
+  }
+}
