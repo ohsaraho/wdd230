@@ -83,7 +83,7 @@
   }
 
   .article_area {
-    width: 800px;
+    max-width: 800px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -111,12 +111,17 @@
   }
 
   .map {
+    float: left;
     display: block;
     margin: 25px;
     box-sizing: border-box;
     max-width: 100%;
     height: auto;
     box-shadow: 0 0 30px rgb(53, 52, 52);
+  }
+
+  .map {
+    clear: left;
   }
 
   .info .city_info,

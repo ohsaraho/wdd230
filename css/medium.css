@@ -24,6 +24,10 @@
     font-size: 20pt;
   }
 
+  ul li {
+    font-size: 16pt;
+  }
+
   footer {
     font-size: 22pt;
     border-radius: 10px;

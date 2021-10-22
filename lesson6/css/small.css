@@ -23,14 +23,14 @@ header {
 
 .headings h1 {
   margin: 0 0 0 10px;
-  font-family: "Rubik", serif;
+  font-family: "Sansita", serif;
   color: white;
   font-size: 20pt;
   text-align: center;
 }
 
 .motto {
-  font-family: "Comfortaa", Lato, sans-serif;
+  font-family: "Sansita", Lato, sans-serif;
   font-style: italic;
   color: white;
   font-size: 9pt;
@@ -104,11 +104,6 @@ main h2 {
   position: relative;
 }
 
-.weather_sum_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .weather_sum {
   position: absolute;
   top: 15px;
@@ -124,6 +119,9 @@ main h2 {
 .herodiv picture img {
   max-width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .weather_sum h2 {
