@@ -10,15 +10,10 @@ const options = {
 document.getElementById("datefooter").textContent = date.toLocaleDateString("en-UK", options);
 
 
-
-let dayOfWeek;
-
-dayOfWeek = date.getDay();
-
-const bannerMessage = document.getElementById("bannerDayOfWeek");
+const bannerMessage = document.querySelector(".banner");
 
 
-if (dayOfWeek === 5) {
+if (date.getDay() === 5) {
     bannerMessage.style.display = 'block';
     
 } 

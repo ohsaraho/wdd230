@@ -24,14 +24,10 @@
 
   .weather_sum h2 {
     font-size: 14pt;
-    /* color: white;
-    border-bottom: 2px solid white; */
   }
 
   .weather_sum p {
     font-size: 8pt;
-    /* font-family: "Comfortaa", Lato, sans-serif;
-    color: white; */
   }
 
   .forecast_title {
