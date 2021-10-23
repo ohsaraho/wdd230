@@ -128,15 +128,15 @@ main h2 {
 
 .weather_sum h2 {
   font-size: 10pt;
-  color: black;
-  border-bottom: 2px solid black;
+  color: white;
+  border-bottom: 2px solid white;
   padding-bottom: 8px;
 }
 
 .weather_sum p {
   font-size: 8pt;
   font-family: "Comfortaa", Lato, sans-serif;
-  color: black;
+  color: white;
 }
 
 .weather_sum p span {
