@@ -108,12 +108,13 @@ main h2 {
   position: absolute;
   top: 15px;
   left: 20px;
-  background-color: #ca693fbf;
+  background-color: #ca693fe5;
   border: 1px solid rgba(0, 0, 0, 0.75);
   padding: 5px 20px;
   padding-right: 40px;
   box-shadow: 0 0 30px rgb(53, 52, 52);
   box-sizing: border-box;
+  font-weight: 700;
 }
 
 .herodiv picture img {
@@ -122,19 +123,24 @@ main h2 {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+  margin-bottom: 40px;
 }
 
 .weather_sum h2 {
-  font-size: 8pt;
-  color: white;
-  border-bottom: 2px solid white;
+  font-size: 10pt;
+  color: black;
+  border-bottom: 2px solid black;
   padding-bottom: 8px;
 }
 
 .weather_sum p {
-  font-size: 6pt;
+  font-size: 8pt;
   font-family: "Comfortaa", Lato, sans-serif;
-  color: white;
+  color: black;
+}
+
+.weather_sum p span {
+  padding-left: 15px;
 }
 
 .forecast_title {
