@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lazy/Progessive Loading Images</title>
+    <meta name="description" content="Demonstrating how lazy/progressive loading of images work.">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <script defer src="js/lazyload.js"></script>
+
+</head>
+<body>
+    <main>
+        <h1>Progessive Loading of Images</h1>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/a_and_b.jpg" alt="Picture of two Bernese Mountain dogs">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/a.jpg" alt="Picture of a Goldendoodle dog">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/i.jpg" alt="Picture of a Rat Terrier dog">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/p.jpg" alt="Picture of a Goldendoodle dog">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/j.jpg" alt="Picture of a Labrador/Border Collie dog">
+        </picture>
+    </main>
+</body>
+</html>
