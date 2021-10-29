@@ -20,4 +20,3 @@ else {
 }
 
 window.localStorage.setItem('lastVisit', now);
-localStorage.clear()
