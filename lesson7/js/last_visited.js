@@ -18,7 +18,6 @@ else {
 }
 
 window.localStorage.setItem('lastVisit', now);
-localStorage.clear()
 
 // const oneDay = 24 * 60 * 60 * 1000;
 
