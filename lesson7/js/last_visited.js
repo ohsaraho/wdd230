@@ -1,7 +1,7 @@
 let now = Date.now();
 
 let lastVisited = window.localStorage.getItem('lastVisit');
-if (lastVisited != 'undefined') {
+if (lastVisited != 'undefined' && lastVisited != null) {
     const oneDay = 24 * 60 * 60 * 1000;
 
     const numberOfDays = Math.floor((now - lastVisited) / oneDay);
@@ -18,6 +18,7 @@ else {
 }
 
 window.localStorage.setItem('lastVisit', now);
+localStorage.clear()
 
 // const oneDay = 24 * 60 * 60 * 1000;
 
