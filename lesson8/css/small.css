@@ -353,8 +353,7 @@ form input[type="submit"] {
 }
 
 /* form input[type="date"], */
-form input[type="range"],
-form select[name="region"] {
+form input[type="range"] {
   -webkit-appearance: none;
 }
 
