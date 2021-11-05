@@ -39,30 +39,19 @@
         </ul>
     </nav>
     <main>
-        <h2 class="storm_center_title">Report a Storm Down Below</h2>
-        <form action="thanks.html">
+        <h2 class="storm_heading">Report a Storm in the Form Below to Our Storm Center</h2>
+        <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label><span class="title_top">Full Name*</span>
-                    <input type="text" name="name" pattern="^[A-Za-z]{5,}[A-Za-z]$" required>
-                </label>
-                <label><span class="title_top">Email</span>
-                    <input type="email" name="email" placeholder="someone@gmail.com">
-                </label>
-                <label><span class="title_top">Phone Number*</span>
-                    <input type="tel" name="phone" minlength="7" required>
-                </label>
-                <label><span class="title_top">Zip Code*</span>
-                    <input type="number" name="zip" required>
-                </label>
+                <label><span class="title">Full Name*</span><input type="text" name="name" pattern="^[A-Za-z]{5,}[A-Za-z]$" required></label>
+                <label><span class="title">Email</span><input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label><span class="title">Phone Number*</span><input type="tel" name="phone" minlength="7" required></label>
+                <label><span class="title">Zip Code*</span><input type="number" name="zip" required></label>
             </fieldset>
             <fieldset>
                 <legend>Storm Information</legend>
-                <label><span class="title_top">Storm Date</span> 
-                    <input type="date" name="storm_date">
-                </label>
-                <label><span class="title_top">Storm type</span>
-                    <input list="storm_types" name="storm_types">
+                <label><span class="title">Storm Date</span> <input type="date" name="completeDate"></label>
+                <label><span class="title">Storm Type</span> <input list="storm_types" name="storm_types">
                     <datalist id="storm_types">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
@@ -71,30 +60,32 @@
                         <option value="Tornado"></option>
                     </datalist>
                 </label>
-                <div for="severity"><span class="title_top">Storm Severity</span>
+                <div for="severity"><span class="storm_title">Storm Severity</span>
                     <div class="storm_severity">
                         <input type="range" id="severity"  min="1" max="10" step="1" value="1" oninput="adjustSeverity(this.value)">
                         <label id="severityvalue">1</label>
                     </div>
                 </div>
                 <label><span class="title_top">Storm Region</span>
-                    <select name="region">
+                    <select>
                         <option value="" disabled selected>Select Region...</option>
                         <option value="preston">Preston</option>
                         <option value="soda_springs">Soda Springs</option>
                         <option value="fish_haven">Fish Haven</option>
                     </select>
                 </label>
-                <label><span class="title_top">Are you in danger?</span>
-                    <label class="radio_options"><input type="radio" name="in_danger" value="yes"> Yes</label>
-                    <label class="radio_options"><input type="radio" name="in_danger" value="maybe"> Maybe</label>
-                    <label class="radio_options"><input type="radio" name="in_danger" value="no"> No</label>
+                <label><span class="radio_title">Are you in danger?</span>
+                    <label class="radio_options"><input type="radio" name="in_danger" value="yes" class="radio_button"> Yes</label>
+                    <label class="radio_options"><input type="radio" name="in_danger" value="maybe" class="radio_button"> Maybe</label>
+                    <label class="radio_options"><input type="radio" name="in_danger" value="no" class="radio_button"> No</label>
                 </label>
-                <label><span class="title_top">Any additional information or comments?</span>
-                <textarea name="additional_information"></textarea>
+                <label><span class="title">Any additional information or comments?</span>
+                    <textarea name="additional_information"></textarea>
                 </label>
             </fieldset>
-            <input type="submit" value="Report Storm">
+            <label>
+                <button class="button" type="submit">Report Storm</button>
+            </label> 
         </form>          
     </main>
     <footer>
