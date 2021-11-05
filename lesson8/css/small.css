@@ -327,9 +327,14 @@ fieldset legend {
 form label,
 form div label,
 form div {
-  -webkit-appearance: none;
   font-size: 16px;
   font-family: "Comfortaa", Lato, sans-serif;
+}
+
+form input,
+form select,
+form textarea {
+  -webkit-appearance: none;
 }
 
 form input[type="text"],
@@ -342,7 +347,6 @@ form input[list="storm_types"],
 form select,
 form textarea,
 form input[type="submit"] {
-  -webkit-appearance: none;
   width: 100%;
   max-width: 760px;
   border-radius: 6px;
@@ -388,11 +392,12 @@ form input:required {
 
 form label.radio_options {
   display: block;
-  padding: 8px 0;
+  padding: 8px 15px;
 }
 
 input[type="radio"] {
   transform: scale(2);
+  margin-right: 15px;
 }
 
 input[type="radio"]:hover,
