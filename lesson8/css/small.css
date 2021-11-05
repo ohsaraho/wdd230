@@ -360,12 +360,15 @@ form select[name="region"] {
 
 form input[list="storm_types"],
 form input[type="date"],
-form select[name="region"],
-form input[type="date"][placeholder="mm/dd/yyyy"] {
+form select[name="region"] {
   -webkit-appearance: visible;
   background-color: white;
-  border: solid 1px black;
+  border: solid 2px black;
   width: 100%;
+}
+
+form textarea {
+  border: solid 2px black;
 }
 
 form input[type="text"],
