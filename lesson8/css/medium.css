@@ -148,4 +148,32 @@
     font-size: 14pt;
     padding: 12px 12px;
   }
+
+  /*-----Storm Center Page-----*/
+
+  .storm_center_title {
+    font-size: 28px;
+  }
+
+  fieldset legend {
+    font-size: 25px;
+  }
+
+  .thanks_h {
+    font-size: 35px;
+  }
+
+  .thanks_p {
+    font-size: 25px;
+  }
+
+  form label,
+  form div label,
+  form div {
+    font-size: 20px;
+  }
+
+  form input[type="submit"] {
+    font-size: 25px;
+  }
 }

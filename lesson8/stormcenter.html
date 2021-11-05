@@ -38,21 +38,21 @@
             <li><a href="gallery-8.html">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="form">
         <h2 class="storm_center_title">Report a Storm Down Below</h2>
         <form action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label><span class="title_top">Full Name*</span>
-                    <input type="text" name="name" pattern="^[A-Za-z]{5,}[A-Za-z]$" required>
+                <label><span class="title_top">Full Name<span class="asterisks">*</span></span>
+                    <input type="text" name="name" pattern="^[A-Za-z ]{5,}[A-Za-z]$" required>
                 </label>
                 <label><span class="title_top">Email</span>
                     <input type="email" name="email" placeholder="someone@gmail.com">
                 </label>
-                <label><span class="title_top">Phone Number*</span>
+                <label><span class="title_top">Phone Number<span class="asterisks">*</span></span>
                     <input type="tel" name="phone" minlength="7" required>
                 </label>
-                <label><span class="title_top">Zip Code*</span>
+                <label><span class="title_top">Zip Code<span class="asterisks">*</span></span>
                     <input type="number" name="zip" required>
                 </label>
             </fieldset>
