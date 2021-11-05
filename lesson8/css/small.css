@@ -331,11 +331,11 @@ form div {
   font-family: "Comfortaa", Lato, sans-serif;
 }
 
-form input,
+/* form input,
 form select,
 form textarea {
   -webkit-appearance: none;
-}
+} */
 
 form input[type="text"],
 form input[type="email"],
@@ -347,6 +347,7 @@ form input[list="storm_types"],
 form select,
 form textarea,
 form input[type="submit"] {
+  -webkit-appearance: none;
   width: 100%;
   max-width: 760px;
   border-radius: 6px;
