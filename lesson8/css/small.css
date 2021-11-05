@@ -352,8 +352,9 @@ form input[type="submit"] {
   border-radius: 6px;
 }
 
-/* form input[type="date"], */
-form input[type="range"] {
+form input[type="date"],
+form input[type="range"],
+form select[name="region"] {
   -webkit-appearance: none;
 }
 
@@ -362,8 +363,8 @@ form input[type="date"],
 form select[name="region"],
 form input[placeholder="mm/dd/yyyy"] {
   -webkit-appearance: visible;
-  /* background-color: white;
-  border: solid 2px black; */
+  background-color: white;
+  border: solid 2px black;
   width: 100%;
 }
 
