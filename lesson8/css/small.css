@@ -354,7 +354,8 @@ form input[type="submit"] {
 
 form input[type="date"],
 form input[type="range"],
-form select[name="region"] {
+form select[name="region"],
+form input[value="mm/dd/yyyy"] {
   -webkit-appearance: none;
 }
 
@@ -372,9 +373,14 @@ form textarea {
   height: 150px;
 }
 
-.arrow_region {
-  font-size: 40px;
+/* .arrow_region {
+  padding-left: 60px;
   font-family: "Comfortaa", Lato, sans-serif;
+} */
+
+option[value=""] {
+  -webkit-appearance: visible;
+  margin-right: 30px;
 }
 
 form input[type="text"],
