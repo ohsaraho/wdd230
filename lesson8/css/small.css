@@ -354,8 +354,16 @@ form input[type="submit"] {
 
 form input[type="date"],
 form input[type="range"],
-form select {
+form select[name="region"] {
   -webkit-appearance: none;
+}
+
+form input[list="storm_types"],
+form input[type="date"],
+form select[name="region"] {
+  -webkit-appearance: visible;
+  background-color: white;
+  width: 100%;
 }
 
 form input[type="text"],
