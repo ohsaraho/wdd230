@@ -352,7 +352,7 @@ form input[type="submit"] {
   border-radius: 6px;
 }
 
-form input[type="date"],
+/* form input[type="date"], */
 form input[type="range"],
 form select[name="region"] {
   -webkit-appearance: none;
