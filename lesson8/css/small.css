@@ -347,7 +347,6 @@ form input[list="storm_types"],
 form select,
 form textarea,
 form input[type="submit"] {
-  -webkit-appearance: none;
   width: 100%;
   max-width: 760px;
   border-radius: 6px;
@@ -355,7 +354,7 @@ form input[type="submit"] {
 
 form input[type="date"],
 form input[type="range"],
-form input[list="storm_types"] {
+form select {
   -webkit-appearance: none;
 }
 
@@ -405,6 +404,7 @@ form label.radio_options {
 input[type="radio"] {
   transform: scale(2);
   margin-right: 15px;
+  -webkit-appearance: visible;
 }
 
 input[type="radio"]:hover,
