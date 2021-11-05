@@ -327,6 +327,7 @@ fieldset legend {
 form label,
 form div label,
 form div {
+  -webkit-appearance: none;
   font-size: 16px;
   font-family: "Comfortaa", Lato, sans-serif;
 }
@@ -341,6 +342,7 @@ form input[list="storm_types"],
 form select,
 form textarea,
 form input[type="submit"] {
+  -webkit-appearance: none;
   width: 100%;
   max-width: 760px;
   border-radius: 6px;
