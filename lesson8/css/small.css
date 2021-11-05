@@ -369,6 +369,12 @@ form select[name="region"] {
 
 form textarea {
   border: solid 2px black;
+  height: 150px;
+}
+
+.arrow_region {
+  font-size: 40px;
+  font-family: "Comfortaa", Lato, sans-serif;
 }
 
 form input[type="text"],
