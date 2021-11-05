@@ -361,7 +361,7 @@ form select[name="region"] {
 form input[list="storm_types"],
 form input[type="date"],
 form select[name="region"],
-form input[placeholder="mm/dd/yyyy"] {
+form input[type="date"][placeholder="mm/dd/yyyy"] {
   -webkit-appearance: visible;
   background-color: white;
   border: solid 1px black;
