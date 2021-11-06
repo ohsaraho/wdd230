@@ -12,7 +12,7 @@ header {
   font-size: 10pt;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
   background-color: #ca693f;
 }
 
@@ -401,7 +401,7 @@ form input:required {
 }
 
 .asterisks {
-  color: #ff4102;
+  color: white;
 }
 
 /* .asterisks {
