@@ -74,7 +74,7 @@
                 <label for="severity"><span class="title_top">Storm Severity</span>
                     <div class="storm_severity">
                         <input type="range" id="severity"  min="1" max="10" step="1" value="1" oninput="adjustSeverity(this.value)">
-                        <label id="severityvalue">1</label>
+                        <span id="severityvalue">1</span>
                     </div>
                 </label>
                 <label><span class="title_top">Storm Region</span>
@@ -86,16 +86,16 @@
                         <option value="fish_haven">Fish Haven</option>
                     </select>
                 </label>
-                <span class="title_top">Are you in danger?</span>
-                    <label class="radio_options">
-                        <input type="radio" name="in_danger" value="yes"> Yes
-                    </label>
-                    <label class="radio_options">
-                        <input type="radio" name="in_danger" value="maybe"> Maybe
-                    </label>
-                    <label class="radio_options">
-                        <input type="radio" name="in_danger" value="no"> No
-                    </label>
+                <div class="title_top">Are you in danger?</div>
+                <label class="radio_options">
+                    <input type="radio" name="in_danger" value="yes"> Yes
+                </label>
+                <label class="radio_options">
+                    <input type="radio" name="in_danger" value="maybe"> Maybe
+                </label>
+                <label class="radio_options">
+                    <input type="radio" name="in_danger" value="no"> No
+                </label>
                 <label><span class="title_top">Any additional information or comments?</span>
                 <textarea name="additional_information"></textarea>
                 </label>

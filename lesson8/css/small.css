@@ -439,7 +439,8 @@ form input[type="range"]:hover {
 }
 
 form label span.title_top,
-form div span.title_top {
+form div span.title_top,
+form div.title_top {
   display: block;
   padding: 8px 0;
 }
