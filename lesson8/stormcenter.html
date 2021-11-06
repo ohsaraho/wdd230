@@ -59,7 +59,7 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label><span class="title_top">Storm Date</span> 
-                    <input type="date" name="storm_date" placeholder="mm/dd/yyyy">
+                    <input type="date" name="storm_date">
                 </label>
                 <label><span class="title_top">Storm type</span>
                     <input list="storm_types" name="storm_types">
@@ -71,15 +71,15 @@
                         <option value="Tornado"></option>
                     </datalist>
                 </label>
-                <div for="severity"><span class="title_top">Storm Severity</span>
+                <label for="severity"><span class="title_top">Storm Severity</span>
                     <div class="storm_severity">
                         <input type="range" id="severity"  min="1" max="10" step="1" value="1" oninput="adjustSeverity(this.value)">
                         <label id="severityvalue">1</label>
                     </div>
-                </div>
+                </label>
                 <label><span class="title_top">Storm Region</span>
                     <select name="region">
-                        <option value="" disabled selected>Select Region... <span class="arrow_region">&#9660;</span>
+                        <option value="" disabled selected>Select Region...  &#9660;
                         </option>
                         <option value="preston">Preston</option>
                         <option value="soda_springs">Soda Springs</option>
@@ -87,9 +87,9 @@
                     </select>
                 </label>
                 <label><span class="title_top">Are you in danger?</span>
-                    <label class="radio_options"><input type="radio" name="in_danger" value="yes" class="radio_button"> Yes</label>
-                    <label class="radio_options"><input type="radio" name="in_danger" value="maybe" class="radio_button"> Maybe</label>
-                    <label class="radio_options"><input type="radio" name="in_danger" value="no" class="radio_button"> No</label>
+                    <label class="radio_options"><input type="radio" name="in_danger" value="yes"> Yes</label>
+                    <label class="radio_options"><input type="radio" name="in_danger" value="maybe"> Maybe</label>
+                    <label class="radio_options"><input type="radio" name="in_danger" value="no"> No</label>
                 </label>
                 <label><span class="title_top">Any additional information or comments?</span>
                 <textarea name="additional_information"></textarea>
