@@ -378,10 +378,10 @@ form textarea {
   font-family: "Comfortaa", Lato, sans-serif;
 } */
 
-option[value=""] {
+/* option[value=""] {
   -webkit-appearance: visible;
   margin-right: 30px;
-}
+} */
 
 form input[type="text"],
 form input[type="email"],
@@ -401,14 +401,8 @@ form input:required {
 }
 
 .asterisks {
-  color: white;
+  color: black;
 }
-
-/* .asterisks {
-  display: flex;
-  color: #f05e2d;
-  align-items: center;
-} */
 
 .storm_severity {
   display: flex;
