@@ -1,0 +1,90 @@
+body {
+  margin: 0px 0px;
+  font-family: "Comfortaa", Lato, sans-serif;
+}
+
+h1,
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(181, 183, 207);
+  box-shadow: 2px 2px 40px 10px rgb(101, 103, 126);
+  margin: 15px 0px;
+}
+
+.cards section {
+  background-color: rgb(147, 153, 216);
+  border: 3px solid rgb(55, 60, 100);
+  padding: 0px 10px;
+}
+
+.cards h2 {
+  margin-top: 30px;
+  color: rgb(15, 25, 100);
+  font-size: 25px;
+}
+
+.cards section img {
+  width: 65%;
+  height: auto;
+  box-shadow: 2px 2px 40px 5px rgb(17, 18, 24);
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 32.5rem) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .cards h2 {
+    font-size: 22px;
+  }
+
+  .cards p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 60rem) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 2px 2px 40px 5px rgb(101, 103, 126);
+    margin: 15px 15px;
+  }
+
+  .cards h2 {
+    font-size: 25px;
+  }
+
+  .cards p {
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 28px;
+  }
+}
