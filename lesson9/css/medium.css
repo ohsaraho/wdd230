@@ -186,4 +186,24 @@
   .home_figcaption h2 {
     font-size: 30pt;
   }
+
+  .homes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 35pt;
+  }
+
+  .homes h2 {
+    font-size: 22pt;
+  }
+
+  .homes p {
+    font-size: 13pt;
+  }
+
+  .homes section:nth-child(3) {
+    grid-column: span 2;
+  }
 }

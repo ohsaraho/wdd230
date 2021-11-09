@@ -85,4 +85,21 @@
   .home_figcaption h2 {
     font-size: 40pt;
   }
+
+  .homes {
+    grid-template-columns: 1fr 1fr 1fr;
+    /* box-shadow: 2px 2px 40px 5px rgb(101, 103, 126); */
+  }
+
+  .homes h2 {
+    font-size: 25pt;
+  }
+
+  .homes p {
+    font-size: 15pt;
+  }
+
+  .homes section:nth-child(3) {
+    grid-column: span 1;
+  }
 }
