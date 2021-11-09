@@ -82,7 +82,7 @@
 
   /*-----Home Page-----*/
 
-  .home_figcaption {
-    font-size: 50px;
+  .home_figcaption h2 {
+    font-size: 40pt;
   }
 }

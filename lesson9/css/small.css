@@ -476,14 +476,6 @@ form input[type="submit"]:hover {
 
 /*-----Home Page-----*/
 
-/* .home_herodiv {
-  position: relative;
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-} */
-
 .home_figure {
   margin-top: 0px;
   font-family: "Rubik", serif;
@@ -500,15 +492,15 @@ form input[type="submit"]:hover {
   position: relative;
 }
 
-.home_figcaption {
+.home_figcaption h2 {
   top: 50%;
   left: 30%;
   right: 10%;
   transform: translate(-50%, -50%);
   color: black;
-  font-size: 25px;
+  font-size: 20pt;
   font-weight: 700;
-  padding: 5px 5px;
+  padding: 10px 10px;
   position: absolute;
   box-sizing: border-box;
   text-align: center;
@@ -523,6 +515,14 @@ form input[type="submit"]:hover {
   bottom: 4px;
   left: 0px;
 }
+
+/* .home_herodiv {
+  position: relative;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} */
 
 /* section.home_herodiv {
   position: relative;
@@ -550,6 +550,7 @@ section.home_herodiv::before {
   font-size: 25px;
   color: white;
   background-color: #ca693f36;
+  max-width: 1080px;
 }
 
 .home_page_title span {
@@ -591,7 +592,7 @@ section.home_herodiv h2 {
   box-shadow: 0 0 30px rgb(53, 52, 52);
   box-sizing: border-box;
   font-weight: 700;
-} */
+}
 
 .home_page_title h2 {
   font-size: 10pt;
@@ -603,7 +604,7 @@ section.home_herodiv h2 {
   font-size: 8pt;
   font-family: "Comfortaa", Lato, sans-serif;
   color: black;
-}
+} */
 
 /* .home_page_title p span {
   padding-left: 15px;
