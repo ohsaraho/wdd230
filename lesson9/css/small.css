@@ -86,7 +86,7 @@ nav a:hover {
   background-color: #ca693f;
 }
 
-.home_town_pages {
+.towns {
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -99,7 +99,7 @@ main h2 {
   color: #f05e2d;
 }
 
-.herodiv {
+.towns_herodiv {
   margin: 0 auto;
   position: relative;
 }
@@ -117,7 +117,7 @@ main h2 {
   font-weight: 700;
 }
 
-.herodiv img {
+.towns_herodiv_image {
   max-width: 100%;
   height: auto;
 }
@@ -479,6 +479,11 @@ form input[type="submit"]:hover {
 }
 
 /*-----Home Page-----*/
+
+.home_town_pages {
+  max-width: 1080px;
+  margin: 0 auto;
+}
 
 .home_figure {
   margin-top: 0px;

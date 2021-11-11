@@ -12,7 +12,7 @@ header {
   font-size: 10pt;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
   background-color: #ca693f;
 }
 
@@ -86,7 +86,7 @@ nav a:hover {
   background-color: #ca693f;
 }
 
-.preston {
+.towns {
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -99,7 +99,7 @@ main h2 {
   color: #f05e2d;
 }
 
-.herodiv {
+.towns_herodiv {
   margin: 0 auto;
   position: relative;
 }
@@ -117,19 +117,10 @@ main h2 {
   font-weight: 700;
 }
 
-.herodiv img {
+.towns_herodiv_image {
   max-width: 100%;
   height: auto;
 }
-
-/* .herodiv picture img {
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  margin-bottom: 40px;
-} */
 
 .weather_sum h2 {
   font-size: 10pt;
@@ -202,6 +193,10 @@ main h2 {
   color: #623118;
 }
 
+.article_area p a:hover {
+  color: white;
+}
+
 .contact_info {
   background-color: #d88e6f;
   margin-top: 30px;
@@ -267,11 +262,8 @@ footer span {
 
 .gallery figure img {
   display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-top: 0px;
   grid-gap: 1em;
-  /* margin-bottom: 20px; */
   max-width: 100%;
 }
 
@@ -303,148 +295,51 @@ footer span {
   margin-top: 30px;
 }
 
-/* picture img[src],
-picture img[data-src] {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  box-shadow: 2px 2px 20px rgb(53, 52, 52);
-}
+/*-----Storm Center PAGE-----*/
 
-picture img[data-src] {
-  filter: blur(3px);
-}
-
-picture img {
-  filter: blur(0px);
-  transition: filter 0.75s;
-} */
-
-/*-----Storm Center Page-----*/
-/* main {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  height: auto;
-  position: absolute;
-} */
-
-/* main {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 0.5fr;
-  grid-template-rows: auto;
-} */
-
-main {
-  background-color: #d88e6f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+.form {
+  background-color: #e0a78f;
   box-sizing: border-box;
-  /* margin: 0 2%; */
 }
 
-.storm_heading {
+.storm_center_title {
   color: black;
-  font-size: 17px;
+  font-size: 23px;
   padding-bottom: 0px;
-  /* grid-column: 2/3;
-  grid-row: 1/2; */
 }
 
-form fieldset,
-label button {
-  margin: 20px;
-  border: 1px solid black;
+form {
+  max-width: 760px;
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  border: solid 2px black;
   border-radius: 8px;
-  padding: 15px 15px;
-  max-width: 1080px;
-  /* grid-column: 2/3;
-  grid-row: 2/6; */
-  /* width: 100%; */
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-bottom: 20px;
+  padding: 20px 20px;
 }
 
-form legend {
-  color: black;
-  margin: 0 20px;
-  padding: 0 3px;
+fieldset legend {
+  padding: 5px;
   font-family: "Rubik", serif;
+  font-size: 20px;
 }
-
-/* form label,
-form select {
-  display: block;
-  padding: 10px;
-  font-family: "Comfortaa", Lato, sans-serif;
-} */
 
 form label,
-form label select,
-form label textarea,
-form label input {
-  display: block;
-  padding: 10px;
-  margin-right: 15px;
+form div label,
+form div {
+  font-size: 16px;
   font-family: "Comfortaa", Lato, sans-serif;
 }
 
-form label input,
-form label textarea,
-form label select {
-  border: solid 1px black;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  background-color: rgb(238, 238, 238);
-  /* width: 100%; */
-}
-
-.storm_title {
-  display: block;
-  padding-left: 10px;
-  /* padding-top: 10px; */
-  /* padding-bottom: 0px; */
-  font-family: "Comfortaa", Lato, sans-serif;
-}
-
-.storm_severity {
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  /* padding-right: 0px; */
-  font-family: "Comfortaa", Lato, sans-serif;
-}
-
-.radio_title {
-  display: block;
-  align-items: center;
-  /* padding-left: 10px; */
-  padding-bottom: 5px;
-  /* padding-bottom: 0px; */
-  font-family: "Comfortaa", Lato, sans-serif;
-}
-
-form label.radio_options {
-  display: flex;
-
-  /* align-items: center; */
-  /* padding-left: 10px; */
-  font-family: "Comfortaa", Lato, sans-serif;
-}
-
-.title {
-  display: block;
-  align-items: center;
-  padding-bottom: 5px;
-}
+/* form input,
+form select,
+form textarea {
+  -webkit-appearance: none;
+} */
 
 form input[type="text"],
 form input[type="email"],
@@ -455,37 +350,130 @@ form input[type="range"],
 form input[list="storm_types"],
 form select,
 form textarea,
-form label button[type="submit"] {
+form input[type="submit"] {
   width: 100%;
-  padding: 15px;
+  max-width: 760px;
+  border-radius: 6px;
 }
 
-form label button.button {
-  /* position: absolute; */
-  max-width: 200px;
-  text-align: center;
-  /* align-items: center;
-  justify-content: center; */
-  margin-top: 25px;
-  margin-bottom: 30px;
-  margin-left: 115px;
-  /* margin-left: 20px; */
-  /* margin-left: auto;
-  margin-right: auto; */
+form input[type="date"],
+form input[type="range"],
+form select[name="region"] {
+  -webkit-appearance: none;
+}
+
+form input[list="storm_types"],
+form input[type="date"],
+form select[name="region"],
+form input[placeholder="mm/dd/yyyy"] {
+  -webkit-appearance: visible;
+  background-color: white;
+  border: solid 2px black;
+  width: 100%;
+}
+
+form textarea {
+  border: solid 2px black;
+  height: 150px;
+}
+
+/* .arrow_region {
+  padding-left: 60px;
   font-family: "Comfortaa", Lato, sans-serif;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  background-color: #f05e2d;
+} */
+
+/* option[value=""] {
+  -webkit-appearance: visible;
+  margin-right: 30px;
+} */
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"],
+form input[type="date"],
+form input[list="storm_types"],
+form select,
+form textarea,
+form input[type="submit"] {
+  width: calc(100% - 12px * 2);
+  padding: 12px;
 }
 
-form label button.button:hover {
+form input:required {
+  border: solid 2px #ff4102;
+}
+
+.asterisks {
+  color: #ff4102;
+}
+
+.storm_severity {
+  display: flex;
+  align-items: center;
+  font-family: "Comfortaa", Lato, sans-serif;
+  margin-right: 10px;
+}
+
+#severityvalue {
+  padding-left: 12px;
+}
+
+form label.radio_options {
+  display: block;
+  padding: 8px 15px;
+}
+
+input[type="radio"] {
+  transform: scale(2);
+  margin-right: 15px;
+  -webkit-appearance: visible;
+  margin-bottom: 20px;
+}
+
+input[type="radio"]:hover,
+form input[type="range"]:hover {
+  cursor: pointer;
+}
+
+form label span.title_top,
+form div span.title_top,
+form div.title_top {
+  display: block;
+  padding: 8px 0;
+}
+
+form input[type="submit"] {
+  background-color: #047476;
+  color: white;
+  width: 100%;
+  margin: 10px 0px;
+  font-family: "Rubik", serif;
+  border: none;
+  font-size: 18px;
+  padding: 20px 0px;
+  border-radius: 15px;
+}
+
+form input[type="submit"]:hover {
   background-color: #5a9f41;
   cursor: pointer;
 }
-/* form label input,
-form label select,
-form label textarea {
-  display: block;
-  padding: 10px;
-} */
+
+.thanks_h {
+  color: black;
+  font-size: 28px;
+  padding-bottom: 0px;
+}
+
+.thanks_p {
+  text-align: center;
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+.thanks_background {
+  background-color: #e0a78f;
+}
