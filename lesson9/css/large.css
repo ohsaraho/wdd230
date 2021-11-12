@@ -119,4 +119,42 @@
   /* .cards section:nth-child(3) {
     grid-column: span 1;
   } */
+
+  /*-----Home Wireframes-----*/
+
+  .home_wireframes h2 {
+    border-bottom: 3px solid black;
+    font-family: "Comfortaa", Lato, sans-serif;
+    font-size: 35pt;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+
+  .home_wireframes h3 {
+    font-family: "Rubik", serif;
+    color: black;
+    font-size: 22pt;
+  }
+
+  .home_wireframes div {
+    background-color: #ee9f7d;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .home_wireframes div a {
+    background-color: #047476;
+    font-size: 18pt;
+    font-family: "Rubik", serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .home_wireframes div a:hover {
+    color: white;
+    background-color: #5a9f41;
+  }
 }

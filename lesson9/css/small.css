@@ -504,8 +504,6 @@ form input[type="submit"]:hover {
 .home_figcaption h2 {
   top: 50%;
   left: 50%;
-  /* left: 30%;
-  right: 10%; */
   transform: translate(-50%, -50%);
   color: black;
   font-size: 20pt;
@@ -545,9 +543,6 @@ form input[type="submit"]:hover {
   text-align: center;
   box-sizing: border-box;
   margin-top: 30px;
-  /* background-color: rgb(181, 183, 207); */
-  /* box-shadow: 2px 2px 40px 10px rgb(101, 103, 126); */
-  /* margin: 20px 0px; */
 }
 
 .cards section {
@@ -558,15 +553,14 @@ form input[type="submit"]:hover {
 
 .cards h2 {
   font-family: "Rubik", serif;
-  /* margin-top: 30px; */
   color: #974d2d;
+  text-shadow: 2px 2px 5px #4d2e21;
   font-size: 28pt;
   padding-bottom: 0px;
 }
 
 .cards h3 {
   font-family: "Rubik", serif;
-  /* margin-top: 30px; */
   color: #723b23;
   font-size: 10pt;
   padding-top: 0px;
@@ -685,7 +679,7 @@ section.home_herodiv h2 {
 .home_wireframes h2 {
   border-bottom: 3px solid black;
   font-family: "Comfortaa", Lato, sans-serif;
-  font-size: 35pt;
+  font-size: 28pt;
   padding: 20px;
   text-align: center;
   color: black;
@@ -694,23 +688,26 @@ section.home_herodiv h2 {
 .home_wireframes h3 {
   font-family: "Rubik", serif;
   color: black;
-  font-size: 22pt;
+  font-size: 18pt;
 }
 
 .home_wireframes div {
-  /* font-size: 18pt; */
-  /* font-family: "Comfortaa", Lato, sans-serif; */
   background-color: #ee9f7d;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .home_wireframes div a {
-  font-size: 18pt;
+  background-color: #047476;
+  font-size: 16pt;
   font-family: "Rubik", serif;
-  color: #047476;
+  color: white;
   text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .home_wireframes div a:hover {
   color: white;
+  background-color: #5a9f41;
 }
