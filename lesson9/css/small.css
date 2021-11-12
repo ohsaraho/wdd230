@@ -537,47 +537,51 @@ form input[type="submit"]:hover {
   color: white;
 }
 
-.homes {
+.cards {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px;
-  padding: 15px 20px;
+  padding: 0px 16px;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 30px;
   /* background-color: rgb(181, 183, 207); */
   /* box-shadow: 2px 2px 40px 10px rgb(101, 103, 126); */
-  margin: 20px 0px;
+  /* margin: 20px 0px; */
 }
 
-.homes section {
+.cards section {
   background-color: #e4c2b4;
   border: 3px solid #e78f69;
-  padding: 0px 10px;
+  padding: 0px 20px;
 }
 
-.homes h2 {
+.cards h2 {
   font-family: "Rubik", serif;
   /* margin-top: 30px; */
   color: #974d2d;
-  font-size: 25pt;
+  font-size: 28pt;
+  padding-bottom: 0px;
 }
 
-.homes h3 {
+.cards h3 {
   font-family: "Rubik", serif;
   /* margin-top: 30px; */
-  color: #974d2d;
-  font-size: 25pt;
+  color: #723b23;
+  font-size: 10pt;
+  padding-top: 0px;
+  padding-bottom: 12px;
 }
 
-.homes p {
+.cards p {
   font-family: "Comfortaa", Lato, sans-serif;
   font-size: 15pt;
 }
 
-.homes section img {
+.cards section img {
   max-width: 100%;
   height: auto;
-  /* box-shadow: 0 0 30px rgb(53, 52, 52); */
+  box-shadow: 3px 3px 20px 2px rgb(34, 34, 34);
   margin-top: 25px;
   box-sizing: border-box;
 }
@@ -675,3 +679,38 @@ section.home_herodiv h2 {
 /* .home_page_title p span {
   padding-left: 15px;
 } */
+
+/*-----Home Wireframes-----*/
+
+.home_wireframes h2 {
+  border-bottom: 3px solid black;
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 35pt;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+.home_wireframes h3 {
+  font-family: "Rubik", serif;
+  color: black;
+  font-size: 22pt;
+}
+
+.home_wireframes div {
+  /* font-size: 18pt; */
+  /* font-family: "Comfortaa", Lato, sans-serif; */
+  background-color: #ee9f7d;
+  text-align: center;
+}
+
+.home_wireframes div a {
+  font-size: 18pt;
+  font-family: "Rubik", serif;
+  color: #047476;
+  text-decoration: none;
+}
+
+.home_wireframes div a:hover {
+  color: white;
+}

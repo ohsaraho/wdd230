@@ -86,20 +86,37 @@
     font-size: 40pt;
   }
 
-  .homes {
-    grid-template-columns: 1fr 1fr 1fr;
+  .cards {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     /* box-shadow: 2px 2px 40px 5px rgb(101, 103, 126); */
   }
-
-  .homes h2 {
-    font-size: 25pt;
+  .cards section {
+    display: block;
+    padding-bottom: 15px;
   }
 
-  .homes p {
+  .cards h2 {
+    font-size: 26pt;
+  }
+
+  .cards h3 {
+    font-size: 9pt;
+  }
+
+  .cards p {
     font-size: 15pt;
   }
 
-  .homes section:nth-child(3) {
-    grid-column: span 1;
+  .cards section img {
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    height: auto;
   }
+
+  /* .cards section:nth-child(3) {
+    grid-column: span 1;
+  } */
 }
