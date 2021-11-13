@@ -22,11 +22,9 @@ fetch(requestURL)
           
           div.setAttribute('class', 'town_data');
           image.setAttribute('src', `images/home/${town.photo}`);
-          image.setAttribute('alt', town.name);
+          image.setAttribute('alt', `Picture of ${town.name}`);
           h2.textContent = town.name;
-          // h2.setAttribute('class', 'townName');
           h3.textContent = town.motto;
-          // h3.setAttribute('class', 'townMoto');
           p1.textContent = `Year Founded: ${town.yearFounded}`;
           p2.textContent = `Population: ${town.currentPopulation}`;
           p3.textContent = `Annual Rain: ${town.averageRainfall}`;
