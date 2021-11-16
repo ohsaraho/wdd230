@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preston Idaho - Weather Life Better</title>
+    <meta name="description" content="Preston Idaho page to provide you with all things weather and fun!">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/date.js"></script>
+    <script defer src="js/menu_bar.js"></script>
+    <script defer src="js/windchill.js"></script>
+
+</head>
+<body>
+    <div class="banner">
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 
+    </div>
+    <header>
+        <img src="images/weather_icon.png" alt="Weather logo">
+        <section class="headings">
+        <h1>Weather Life Better</h1>
+        <div class="motto">We know how to weather life better</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="towns">
+        <h2>Preston Idaho</h2>
+        <div class="towns_herodiv">
+            <img class="towns_herodiv_image" src="images/preston_town_mountains.jpg" alt="Preston town picture">
+            <section class="weather_sum">
+                <h2>Weather Summary</h2>
+                <p>
+                    Currently: <span id="current_weather">Sunny</span>
+                </p>
+                <p>
+                    Current temp: <span id="current_temp">50</span>°F
+                </p>
+                <p>
+                    Wind Chill: <span id="wind_chill"></span>°F
+                </p>
+                <p>
+                    Humidity: <span id="humidity">69</span>%
+                </p>
+                <p>
+                    Wind Speed: <span id="wind_speed">5</span>mph
+                </p>
+            </section>
+        </div>
+        <h3 class="forecast_title">5 Day Forecast</h3>
+        <div class="weather_grid">
+            <div class="grid-col">
+                <span class="col-head">Wed</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">89°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Thu</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">87°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Fri</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">78°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Sat</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">75°F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head">Sun</span>
+                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
+                <span class="weather_data">72°F</span>
+        </div>
+        </div>
+        <div class="article_area">
+            <div>
+                <img src="images/article_pic_preston.jpg" alt="People talking">
+                <h3>
+                    Article Title
+                </h3>
+                <h4>
+                    by Jane Doe
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum... <a href="#" target="_blank">continue to full article</a>
+                </p> 
+            </div>
+        </div>
+        <div class="contact_info">
+            
+            <a href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173" target="_blank" rel="noreferrer"><img class="map" src="images/map.jpg" alt="Map of all three cities"></a>
+            <div class="info">
+                <ul class="city_info">
+                    <li>
+                        <h3>Weather Life Better</h3>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="images/map_pointer1.png" alt="Map pointer icon">
+                            30 N 1st E
+                            <div>Preston, ID 83263</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="city_info">   
+                    <li>
+                        <div>
+                            <img src="images/telephone1.png" alt="Telephone icon">
+                            (999) 999-999
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="images/email1.png" alt="Email icon">
+                            weatherlifebetter@wlb.com
+                        </div>
+                    </li>
+                </ul>
+                <ul class="icons">  
+                    <li>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="images/facebook.png" alt="Facebook icon"></a>
+                            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><img src="images/pinterest.png" alt="Pinterest icon"></a>
+                            <a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="images/twitter.png" alt="Twitter icon"></a>
+                            <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><img src="images/whatsapp.png" alt="WhatsApp icon"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>            
+    </main>
+    <footer>
+        <h3>&copy; Weather Life Better | Attributions | Sarah Osguthorpe</h3>
+        <span id="datefooter"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script src="js/webfontload.js"></script>
+</body>
+</html>
