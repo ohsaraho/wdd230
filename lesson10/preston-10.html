@@ -14,6 +14,7 @@
     <script defer src="js/date.js"></script>
     <script defer src="js/menu_bar.js"></script>
     <script defer src="js/windchill.js"></script>
+    <script defer src="js/api.js"></script>
 
 </head>
 <body>
@@ -44,51 +45,73 @@
             <img class="towns_herodiv_image" src="images/preston_town_mountains.jpg" alt="Preston town picture">
             <section class="weather_sum">
                 <h2>Weather Summary</h2>
-                <p>
-                    Currently: <span id="current_weather">Sunny</span>
-                </p>
-                <p>
-                    Current temp: <span id="current_temp">50</span>°F
-                </p>
-                <p>
-                    Wind Chill: <span id="wind_chill"></span>°F
-                </p>
-                <p>
-                    Humidity: <span id="humidity">69</span>%
-                </p>
-                <p>
-                    Wind Speed: <span id="wind_speed">5</span>mph
-                </p>
+                <p class="weather_sum_name">Currently:</p>
+                <p class="weather_sum_input" id="current_weather"></p>
+                <p class="weather_sum_name">Current temp:</p>    
+                <p class="weather_sum_input" id="current_temp"></p>
+                <p class="weather_sum_name">Wind Chill:</p>    
+                <p class="weather_sum_input" id="wind_chill"></p>
+                <p class="weather_sum_name">Humidity:</p>
+                <p class="weather_sum_input" id="humidity"></p>
+                <p class="weather_sum_name">Wind Speed:</p> 
+                <p class="weather_sum_input" id="wind_speed"></p>     
             </section>
         </div>
         <h3 class="forecast_title">5 Day Forecast</h3>
         <div class="weather_grid">
             <div class="grid-col">
-                <span class="col-head">Wed</span>
-                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
-                <span class="weather_data">89°F</span>
+                <span class="col-head1"></span>
+                <img class="weather_icon1" src="" alt="">
+                <span class="weather_data1"></span>
             </div>
             <div class="grid-col">
-                <span class="col-head">Thu</span>
-                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
-                <span class="weather_data">87°F</span>
+                <span class="col-head2"></span>
+                <img class="weather_icon2" src="" alt="">
+                <span class="weather_data2"></span>
             </div>
             <div class="grid-col">
-                <span class="col-head">Fri</span>
-                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
-                <span class="weather_data">78°F</span>
+                <span class="col-head3"></span>
+                <img class="weather_icon3" src="" alt="">
+                <span class="weather_data3"></span>
             </div>
             <div class="grid-col">
-                <span class="col-head">Sat</span>
-                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
-                <span class="weather_data">75°F</span>
+                <span class="col-head4"></span>
+                <img class="weather_icon4" src="" alt="">
+                <span class="weather_data4"></span>
             </div>
             <div class="grid-col">
-                <span class="col-head">Sun</span>
-                <img class="weather_emoji" src="images/sun.png" alt="Weather emoji">
-                <span class="weather_data">72°F</span>
+                <span class="col-head5"></span>
+                <img class="weather_icon5" src="" alt="">
+                <span class="weather_data5"></span>
+            </div>
         </div>
-        </div>
+        <!-- <div class="weather_grid">
+            <section class="grid-col">
+                <h4 class="col-head1"></h4>
+                <img class="weather_icon1" src="" alt="">
+                <span class="weather_data1"></span>
+            </section>
+            <section class="grid-col">
+                <h4 class="col-head2"></h4>
+                <img class="weather_icon2" src="" alt="">
+                <span class="weather_data2"></span>
+            </section>
+            <section class="grid-col">
+                <h4 class="col-head3"></h4>
+                <img class="weather_icon3" src="" alt="">
+                <span class="weather_data3"></span>
+            </section>
+            <section class="grid-col">
+                <h4 class="col-head4"></h4>
+                <img class="weather_icon4" src="" alt="">
+                <span class="weather_data4"></span>
+            </section>
+            <section class="grid-col">
+                <h4 class="col-head5"></h4>
+                <img class="weather_icon5" src="" alt="">
+                <span class="weather_data5"></span>
+            </section>
+        </div> -->
         <div class="article_area">
             <div>
                 <img src="images/article_pic_preston.jpg" alt="People talking">
