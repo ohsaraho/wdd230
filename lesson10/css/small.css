@@ -151,7 +151,6 @@ main h2 {
   text-align: left;
   color: #0d2c2c;
   margin: 5px 0px;
-  /* padding-top: 14px; */
 }
 
 .forecast_title {
@@ -350,12 +349,6 @@ form div {
   font-family: "Comfortaa", Lato, sans-serif;
 }
 
-/* form input,
-form select,
-form textarea {
-  -webkit-appearance: none;
-} */
-
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
@@ -391,16 +384,6 @@ form textarea {
   border: solid 2px black;
   height: 150px;
 }
-
-/* .arrow_region {
-  padding-left: 60px;
-  font-family: "Comfortaa", Lato, sans-serif;
-} */
-
-/* option[value=""] {
-  -webkit-appearance: visible;
-  margin-right: 30px;
-} */
 
 form input[type="text"],
 form input[type="email"],
@@ -595,98 +578,21 @@ form input[type="submit"]:hover {
   box-sizing: border-box;
 }
 
-/* .home_herodiv {
-  position: relative;
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-} */
-
-/* section.home_herodiv {
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  display: flex;
-  background-position: center;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../images/home_page1080.jpg");
-  background-size: cover;
-  box-sizing: border-box;
-}
-
-section.home_herodiv::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
-
-.home_page_title {
-  font-size: 25px;
-  color: white;
-  background-color: #ca693f36;
-  max-width: 1080px;
-}
-
-.home_page_title span {
-  font-size: 15px;
-  color: #f7eae5;
-} */
-
-/* section.home_herodiv {
-  background-image: url("../images/home_page1080.jpg");
-  background-position: bottom center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  height: auto;
-}
-
-section.home_herodiv h2 {
-  color: #ffffff;
-  font-size: 200%;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 1em;
-} */
-
-/* .home_herodiv picture img {
-  max-width: 100%;
-  height: auto;
-  position: relative;
-}
-
-.home_page_title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #ca693fad;
-  padding: 5px 20px;
-  box-shadow: 0 0 30px rgb(53, 52, 52);
-  box-sizing: border-box;
-  font-weight: 700;
-}
-
-.home_page_title h2 {
-  font-size: 10pt;
-  color: black;
-  padding-bottom: 8px;
-}
-
-.home_page_title p {
-  font-size: 8pt;
-  font-family: "Comfortaa", Lato, sans-serif;
-  color: black;
-} */
-
-/* .home_page_title p span {
-  padding-left: 15px;
-} */
-
 /*-----Preston Page-----*/
+footer a:hover {
+  color: #e4c2b4;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.article_area a {
+  color: black;
+  text-decoration: none;
+}
+
+.article_area a:hover {
+  color: white;
+}

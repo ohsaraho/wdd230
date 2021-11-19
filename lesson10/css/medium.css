@@ -43,44 +43,6 @@
     color: #f05e2d;
   }
 
-  /* .weather_grid h4 {
-    padding: 5px;
-    border-bottom: 1px solid rgb(44, 44, 44);
-    text-align: center;
-    background-color: #047476;
-    font-size: 18pt;
-    color: white;
-    font-family: "Rubik", serif;
-  }
-
-  .weather_grid span {
-    display: block;
-    padding: 10px 5px;
-    font-size: 16pt;
-    color: black;
-    font-family: "Comfortaa", Lato, sans-serif;
-  }
-
-  .weather_grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    padding-bottom: 25px;
-    max-width: 760px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .weather_grid img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .weather_grid section {
-    background-color: white;
-    border: 0.75px solid rgb(44, 44, 44);
-    text-align: center;
-  } */
-
   .col-head1,
   .col-head2,
   .col-head3,
@@ -241,11 +203,6 @@
     font-size: 30pt;
   }
 
-  /* .cards {
-    grid-template-columns: 1fr;
-    
-  } */
-
   .cards section {
     padding: 0px 30px;
   }
@@ -253,7 +210,6 @@
   .cards h2 {
     font-size: 36pt;
     padding-bottom: 0px;
-    /* padding: 0px; */
   }
 
   .cards h3 {
@@ -265,38 +221,12 @@
     font-size: 13pt;
   }
 
-  /* .cards section:nth-child(3) {
-    grid-column: span 2;
-  } */
-  /* .cards section {
-    max-width: 600px;
-    margin: 0.5rem auto;
-  } */
-
   .cards section {
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    /* grid-column-gap: 1em; */
   }
-
-  /* .cards section h2 {
-    grid-column: 1/2;
-  }
-
-  .cards section h3 {
-    grid-column: 1/2;
-  }
-  .cards section p {
-    grid-column: 1/2;
-  }
-  .cards section img {
-    margin-right: 10px;
-    grid-column: 2/3;
-    grid-row: 2/6;
-    max-width: 100%;
-  } */
 
   .cards section img {
     margin: 15px 12px;
@@ -307,10 +237,6 @@
   .cards section:nth-child(odd) .cards img {
     grid-column: 2;
   }
-
-  /* .cards section img {
-    float: right;
-  } */
 
   .cards section:nth-child(odd) div.town_data {
     grid-column: 1;
