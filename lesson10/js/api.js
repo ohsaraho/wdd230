@@ -33,7 +33,7 @@ fetch(forecastURL)
   forecastfive.forEach((forecast, index) => {
     const forcast_day = forecast.dt_txt;
     let day = new Date(forcast_day).getDay()
-    const imagesrc = `https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`;
+    const imagesrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
     index += 1;
 
     document.querySelector(`.col-head${index}`).textContent = weekdays[day];
