@@ -1,0 +1,118 @@
+@media only screen and (min-width: 60rem) {
+  header img {
+    width: 128px;
+  }
+
+  .headings h1 {
+    font-size: 40pt;
+  }
+  .motto {
+    font-size: 18pt;
+  }
+  .navigation {
+    display: flex;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main h2 {
+    font-size: 30pt;
+  }
+
+  .weather_sum h2 {
+    font-size: 18pt;
+  }
+
+  .weather_sum p {
+    font-size: 12pt;
+  }
+
+  .map {
+    margin: 50px;
+  }
+
+  .info .city_info,
+  .info .icons {
+    padding-left: 120px;
+    padding-right: 50px;
+    font-size: 15pt;
+  }
+
+  .city_info li h3 {
+    padding-top: 100px;
+  }
+
+  footer {
+    font-size: 12pt;
+  }
+
+  footer span {
+    font-size: 14pt;
+  }
+
+  /*-----Gallery Page-----*/
+
+  .gallery {
+    max-width: 1920px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery figure figcaption {
+    font-size: 16pt;
+    padding: 14px 14px;
+  }
+
+  .gallery figure:hover {
+    box-shadow: 0px 0px 40px rgb(53, 52, 52);
+  }
+
+  /*-----Home Page-----*/
+
+  .home_figcaption h2 {
+    font-size: 40pt;
+  }
+
+  .cards {
+    display: flex;
+  }
+  .cards section {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .cards h2 {
+    font-size: 26pt;
+  }
+
+  .cards h3 {
+    font-size: 9pt;
+  }
+
+  .cards p {
+    font-size: 15pt;
+  }
+
+  .cards section img {
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*-----Preston Page-----*/
+}

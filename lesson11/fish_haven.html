@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fish Haven - Weather Life Better</title>
+    <meta name="description" content="Fish Haven Idaho page to provide you with all things weather and fun!">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/date.js"></script>
+    <script defer src="js/menu_bar.js"></script>
+    <script defer src="js/windchill.js"></script>
+    <script defer src="js/fish_haven_api.js"></script>
+
+</head>
+<body>
+    <div class="banner">
+        Saturday = Fish Haven Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion. 
+    </div>
+    <header>
+        <img src="images/weather_icon.png" alt="Weather logo">
+        <section class="headings">
+        <h1>Weather Life Better</h1>
+        <div class="motto">We know how to weather life better</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda_springs.html">Soda Springs</a></li>
+            <li><a class="active" href="fish_haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="towns">
+        <h2>Fish Haven Idaho</h2>
+        <div class="towns_herodiv">
+            <img class="towns_herodiv_image" src="images/fish_haven.jpg" alt="Fish Haven town picture">
+            <section class="weather_sum">
+                <h2>Weather Summary</h2>
+                <p class="weather_sum_name">Currently:</p>
+                <p class="weather_sum_input" id="current_weather"></p>
+                <p class="weather_sum_name">Current temp:</p>    
+                <p class="weather_sum_input" id="current_temp"></p>
+                <p class="weather_sum_name">Wind Chill:</p>    
+                <p class="weather_sum_input" id="wind_chill"></p>
+                <p class="weather_sum_name">Humidity:</p>
+                <p class="weather_sum_input" id="humidity"></p>
+                <p class="weather_sum_name">Wind Speed:</p> 
+                <p class="weather_sum_input" id="wind_speed"></p>     
+            </section>
+        </div>
+        <h3 class="forecast_title">5 Day Forecast</h3>
+        <div class="weather_grid">
+            <div class="grid-col">
+                <span class="col-head1"></span>
+                <img class="weather_icon1" src="images/placeholder_icon.png" alt="Weather icon">
+                <span class="weather_data1"></span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head2"></span>
+                <img class="weather_icon2" src="images/placeholder_icon.png" alt="Weather icon">
+                <span class="weather_data2"></span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head3"></span>
+                <img class="weather_icon3" src="images/placeholder_icon.png" alt="Weather icon">
+                <span class="weather_data3"></span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head4"></span>
+                <img class="weather_icon4" src="images/placeholder_icon.png" alt="Weather icon">
+                <span class="weather_data4"></span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head5"></span>
+                <img class="weather_icon5" src="images/placeholder_icon.png" alt="Weather icon">
+                <span class="weather_data5"></span>
+            </div>
+        </div>
+        <div class="article_area">
+            <div>
+                <img src="images/fish_haven_article.jpg" alt="Picture of a Brown Trout">
+                <h3>
+                    Southeast Idaho Fish and Game
+                </h3>
+                <h4>
+                    Native Idaho Trout are plentiful in Southeast Idaho!
+                </h4>
+                <p>
+                    Southeast Idaho is a paradise for fishing.  If you stay on the Interstate highways you'll see very little of the abundance of waters which make the area a Mecca for dedicated fishermen winter and summer.
+                </p>
+                <p>
+                    Thirty one fishable reservoirs and many streams, creeks, and rivers are located in the 110 mile length and 105 mile breadth of this travel region. Species include Rainbow Trout, Cutthroat Trout, Brown Trout, Brook Trout, Lake Trout, Bull Trout, Chinook, Salmon, Kokanee Salmon, Coho Salmon, Steelhead, White Sturgeon, Mountain Whitefish, Smallmouth Bass, Largemouth Bass, Crappie, Bluegill, Yellow Perch, Channel Catfish, Bullhead Catfish, and Pumpkinseed... <a href="https://idahohighcountry.org/cat/fishing/" target="_blank" rel="noreferrer">continue to full article</a>
+                </p> 
+            </div>
+        </div>
+        <div class="contact_info">
+            
+            <a href="https://www.google.com/maps/dir//Soda+Springs,+ID+83276/@42.6614075,-111.6237915,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8755968bb0047ae5:0x9d3970a1a6df8e12!2m2!1d-111.6046687!2d42.6543652" target="_blank" rel="noreferrer"><img class="map" src="images/map.jpg" alt="Map of all three cities"></a>
+            <div class="info">
+                <ul class="city_info">
+                    <li>
+                        <h3>Weather Life Better</h3>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="images/map_pointer1.png" alt="Map pointer icon">
+                            30 N 1st E
+                            <div>Preston, ID 83263</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="city_info">   
+                    <li>
+                        <div>
+                            <img src="images/telephone1.png" alt="Telephone icon">
+                            (999) 999-999
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="images/email1.png" alt="Email icon">
+                            weatherlifebetter@wlb.com
+                        </div>
+                    </li>
+                </ul>
+                <ul class="icons">  
+                    <li>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="images/facebook.png" alt="Facebook icon"></a>
+                            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><img src="images/pinterest.png" alt="Pinterest icon"></a>
+                            <a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="images/twitter.png" alt="Twitter icon"></a>
+                            <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><img src="images/whatsapp.png" alt="WhatsApp icon"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>            
+    </main>
+    <footer>
+        <h3>&copy; Weather Life Better | <a href="https://openweathermap.org/" target="_blank" rel="noreferrer">Open Weather Map</a> | Sarah Osguthorpe</h3>
+        <span id="datefooter"></span>
+    </footer>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script src="js/webfontload.js"></script> -->
+</body>
+</html>
