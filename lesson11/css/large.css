@@ -115,4 +115,14 @@
   }
 
   /*-----Preston Page-----*/
+
+  /*-----Upcoming Events-----*/
+
+  .upcoming_events h2 {
+    font-size: 25pt;
+  }
+
+  .upcoming_events ul li {
+    font-size: 15pt;
+  }
 }
