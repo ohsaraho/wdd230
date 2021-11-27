@@ -1,3 +1,4 @@
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=5a69da6bedb5c53762ac5a1761526a1b";
 fetch(apiURL)
   .then((response) => response.json())
@@ -6,11 +7,10 @@ fetch(apiURL)
     let s = jsObject.wind.speed;
     let windchill = 35.74 + (0.6215 * t) - (35.75 *(s ** 0.16)) + (0.4275 * t * (s ** 0.16));
 
-    console.log(jsObject);
     document.getElementById('current_weather').textContent = jsObject.weather[0].description;
-    document.getElementById('current_temp').textContent = `${jsObject.main.temp} °F`;
-    document.getElementById('humidity').textContent = `${jsObject.main.humidity} %`;
-    document.getElementById('wind_speed').textContent = `${jsObject.wind.speed} mph`;
+    document.getElementById('current_temp').textContent = `${t} °F`;
+    document.getElementById('humidity').textContent = `${jsObject.main.humidity}%`;
+    document.getElementById('wind_speed').textContent = `${s} mph`;
     if (t <= 50 && s > 3) {
         document.querySelector('#wind_chill').textContent = `${Math.round(windchill)} °F`;
     }
@@ -29,7 +29,6 @@ fetch(forecastURL)
   const forecastfive = jsObject.list.filter(item => item.dt_txt.includes('18:00:00'));
   const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
   
-  console.log(jsObject);
   forecastfive.forEach((forecast, index) => {
     const forcast_day = forecast.dt_txt;
     let day = new Date(forcast_day).getDay()
