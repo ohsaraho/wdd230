@@ -1,0 +1,235 @@
+nav {
+  margin: 0 auto;
+  background-color: #17a8a8;
+  justify-content: space-between;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: "Rubik", serif;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+  color: white;
+  background-color: #7d9610;
+}
+
+.responsive li {
+  display: block;
+}
+
+.responsive .ham {
+  background-color: #abd636;
+  color: white;
+}
+
+.navigation .active {
+  background-color: #0dddcc;
+  color: white;
+}
+
+/*-----JOIN PAGE-----*/
+
+.form {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #94d5ee;
+  box-sizing: border-box;
+}
+
+.join_title {
+  color: black;
+  font-size: 23px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+form {
+  max-width: 760px;
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  border: solid 2px black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+}
+
+fieldset legend {
+  padding: 5px;
+  font-family: "Rubik", serif;
+  font-size: 20px;
+}
+
+form label,
+form div label,
+form div {
+  font-size: 16px;
+  font-family: "Comfortaa", Lato, sans-serif;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form input[type="submit"] {
+  width: 100%;
+  max-width: 760px;
+  border-radius: 6px;
+}
+
+.city_input,
+.state_input,
+.country_input {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 6px;
+}
+
+form input[type="url"] {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 6px;
+}
+
+form input[type="number"] {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 6px;
+}
+
+/* form input[type="date"],
+form input[type="range"],
+form select[name="region"] {
+  -webkit-appearance: none;
+}
+
+form input[list="storm_types"],
+form input[type="date"],
+form select[name="region"],
+form input[placeholder="mm/dd/yyyy"] {
+  -webkit-appearance: visible;
+  background-color: white;
+  border: solid 2px black;
+  width: 100%;
+} */
+
+.business_description {
+  border: solid 2px black;
+  height: 150px;
+}
+
+.city_input,
+.state_input,
+.country_input,
+form input[type="url"],
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"],
+form textarea,
+form input[type="submit"] {
+  width: calc(100% - 12px * 2);
+  padding: 12px;
+}
+
+form input:required {
+  border: solid 2px black;
+}
+
+.asterisks {
+  color: black;
+}
+
+/* .storm_severity {
+  display: flex;
+  align-items: center;
+  font-family: "Comfortaa", Lato, sans-serif;
+  margin-right: 10px;
+}
+
+#severityvalue {
+  padding-left: 12px;
+} */
+
+form label.radio_options {
+  display: block;
+  padding: 8px 15px;
+}
+
+input[type="radio"] {
+  transform: scale(2);
+  margin-right: 15px;
+  -webkit-appearance: visible;
+  margin-bottom: 20px;
+}
+
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+form label span.title_top,
+form div span.title_top,
+form div.title_top {
+  display: block;
+  padding: 8px 0;
+}
+
+form input[type="submit"] {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 20px 0px;
+  font-family: "Rubik", serif;
+  border: none;
+  font-size: 18px;
+  padding: 20px 0px;
+  border-radius: 15px;
+}
+
+form input[type="submit"]:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+/* .thanks_h {
+  color: black;
+  font-size: 28px;
+  padding-bottom: 0px;
+}
+
+.thanks_p {
+  text-align: center;
+  font-family: "Comfortaa", Lato, sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+.thanks_background {
+  background-color: #e0a78f;
+} */

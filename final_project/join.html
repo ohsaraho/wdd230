@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join -</title>
+    <meta name="description" content="The storm center page is where you can report weather that looks concerning.">
+    <!-- <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/menu_bar.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="" alt="Chamber of Commerce logo">
+        <section class="headings">
+        <h1>Chamber of Commerce</h1>
+        <!-- <div class="motto"></div> -->
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">Salt Lake City</a></li>
+            <li><a class="active" href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="form">
+        <h2 class="join_title">Please Fill Out the Contact Form Below</h2>
+        <form action="confirmation.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label><span class="title_top">First Name<span class="asterisks">*</span></span>
+                    <input type="text" name="name" pattern="^[A-Za-z ]{5,}[A-Za-z]$" title="5 or more letters are required" required>
+                </label>
+                <label><span class="title_top">Last Name<span class="asterisks">*</span></span>
+                    <input type="text" name="name" pattern="^[A-Za-z ]{5,}[A-Za-z]$" title="5 or more letters are required" required>
+                </label>
+                <label><span class="title_top">Email<span class="asterisks">*</span></span>
+                    <input type="email" name="email" placeholder="someone@gmail.com" required>
+                </label>
+                <label><span class="title_top">Phone Number</span>
+                    <input type="tel" name="phone" minlength="7" pattern="[0-9-]+" title="Only numbers and dashes are allowed. Example: 888-888-8888">
+                </label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label><span class="title_top">Business Name<span class="asterisks">*</span></span>
+                    <input type="text" name="name" pattern="^[A-Za-z ]{5,}[A-Za-z]$" title="5 or more letters are required" required>
+                </label>
+                <label><span class="title_top">Business Address</span>
+                    <textarea class="business_address" name="business_address"></textarea>
+                </label>
+                <label><span class="title_top">City</span>
+                    <input class="city_input" name="city">
+                </label>
+                <label><span class="title_top">State</span>
+                    <input class="state_input" name="state">
+                </label>
+                <label><span class="title_top">Zip Code</span>
+                    <input type="number" name="zip" title="Only numbers are allowed">
+                </label>
+                <label><span class="title_top">Country</span>
+                    <input class="country_input" name="country">
+                </label>
+                <label for="url"><span class="title_top">Business Website</span>
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30">
+                </label>
+                <label><span class="title_top">Business Description</span>
+                    <textarea class="business_description" name="business_description"></textarea>
+                </label>
+                <div class="title_top">Membership Level Selection</div>
+                <label class="radio_options">
+                    <input type="radio" name="mem_level" value="Non-profit"> Non-profit ($100)
+                </label>
+                <label class="radio_options">
+                    <input type="radio" name="mem_level" value="Bronze"> Bronze ($200)
+                </label>
+                <label class="radio_options">
+                    <input type="radio" name="mem_level" value="Silver"> Silver ($400)
+                </label>
+                <label class="radio_options">
+                    <input type="radio" name="mem_level" value="Gold"> Gold ($1000)
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit Information">
+        </form>          
+    </main>
+    <!-- <div class="contact_info">
+            
+            <a href="https://www.google.com/maps/@42.0997416,-111.9153444,13z" target="_blank" rel="noreferrer"><img class="map" src="images/map.jpg" alt="Map of all three cities"></a>
+            <div class="info">
+                <ul class="city_info">
+                    <li>
+                        <h3>Weather Life Better</h3>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="images/map_pointer1.png" alt="Map pointer icon">
+                            30 N 1st E
+                            <div>Preston, ID 83263</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="city_info">   
+                    <li>
+                        <div>
+                            <img src="images/telephone1.png" alt="Telephone icon">
+                            (999) 999-999
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="images/email1.png" alt="Email icon">
+                            weatherlifebetter@wlb.com
+                        </div>
+                    </li>
+                </ul>
+                <ul class="icons">  
+                    <li>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="images/facebook.png" alt="Facebook icon"></a>
+                            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><img src="images/pinterest.png" alt="Pinterest icon"></a>
+                            <a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="images/twitter.png" alt="Twitter icon"></a>
+                            <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><img src="images/whatsapp.png" alt="WhatsApp icon"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+    <footer>
+        <h3>&copy; Chamber of Commerce | Attributions | <a href="#" target="_blank" rel="noreferrer">Terms of Use</a></h3>
+        <span id="datefooter"></span>
+    </footer>
+</body>
+</html>
