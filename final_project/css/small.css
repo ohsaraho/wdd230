@@ -1,6 +1,7 @@
 nav {
   margin: 0 auto;
-  background-color: #17a8a8;
+  /* background-color: #17a8a8; */
+  background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
   justify-content: space-between;
 }
 
@@ -31,7 +32,7 @@ nav a {
 
 nav a:hover {
   color: white;
-  background-color: #7d9610;
+  background-color: #83e22a;
 }
 
 .responsive li {
@@ -139,7 +140,6 @@ form input[placeholder="mm/dd/yyyy"] {
 } */
 
 .business_description {
-  border: solid 2px black;
   height: 150px;
 }
 
@@ -157,7 +157,9 @@ form input[type="submit"] {
   padding: 12px;
 }
 
-form input:required {
+form input:required,
+textarea {
+  border: solid 2px black;
   border: solid 2px black;
 }
 
@@ -191,6 +193,17 @@ input[type="radio"] {
 input[type="radio"]:hover {
   cursor: pointer;
 }
+
+/* [type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #abd636;
+}
+
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #abd636;
+} */
 
 form label span.title_top,
 form div span.title_top,
