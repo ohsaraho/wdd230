@@ -1,6 +1,86 @@
+/* font-family: 'Arima Madurai', cursive; */
+
+header {
+  background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
+  margin: 0;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* nav img {
+  align-items: left;
+  
+} */
+
+ul {
+  padding: 0px;
+}
+
 nav {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.navigation .nav_list {
+  display: block;
+  padding: 10px 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_list {
+  border-top: 1px solid white;
+  /* width: 100%; */
+}
+
+.navigation {
+  color: white;
+  /* flex-direction: row; */
+  font-size: 20pt;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.navigation li:first-child {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  border-top: none;
+}
+
+.navigation .nav_list {
+  display: none;
+}
+
+.responsive .nav_list {
+  display: block;
+}
+
+.responsive .ham {
+  color: #056e76;
+}
+
+.navigation .active {
+  color: #e7745f;
+}
+
+/* nav {
   margin: 0 auto;
-  /* background-color: #17a8a8; */
   background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
   justify-content: space-between;
 }
@@ -40,14 +120,14 @@ nav a:hover {
 }
 
 .responsive .ham {
-  background-color: #abd636;
+  background-color: #6dc51b;
   color: white;
 }
 
 .navigation .active {
-  background-color: #0dddcc;
+  background-color: #e7745f;
   color: white;
-}
+} */
 
 /*-----JOIN PAGE-----*/
 
@@ -55,7 +135,7 @@ nav a:hover {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #94d5ee;
+  background-color: #ffe2ad;
   box-sizing: border-box;
 }
 
