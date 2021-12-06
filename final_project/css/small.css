@@ -1,5 +1,9 @@
 /* font-family: 'Arima Madurai', cursive; */
 
+/* * {
+  margin: 0px auto;
+} */
+
 header {
   background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
   margin: 0;
@@ -7,15 +11,11 @@ header {
 }
 
 h1 {
-  margin: 0;
+  margin: 0px;
 }
 
-/* nav img {
-  align-items: left;
-  
-} */
-
 ul {
+  margin: 0px;
   padding: 0px;
 }
 
