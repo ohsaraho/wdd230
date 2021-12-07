@@ -2,4 +2,12 @@
   /* .navigation a {
     font-size: 18pt;
   } */
+
+  .navigation {
+    font-size: 18pt;
+  }
+
+  footer {
+    font-size: 10pt;
+  }
 }

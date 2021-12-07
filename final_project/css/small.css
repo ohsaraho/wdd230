@@ -4,10 +4,20 @@
   margin: 0px auto;
 } */
 
+header img {
+  width: 170px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 header {
   background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
   margin: 0;
   height: auto;
+  /* padding: 20px 20px; */
 }
 
 h1 {
@@ -16,7 +26,8 @@ h1 {
 
 ul {
   margin: 0px;
-  padding: 0px;
+  padding-left: 0px;
+  padding-top: 10px;
 }
 
 nav {
@@ -48,8 +59,7 @@ nav ul li a {
 
 .navigation {
   color: white;
-  /* flex-direction: row; */
-  font-size: 20pt;
+  font-size: 15pt;
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -58,7 +68,7 @@ nav ul li a {
 .navigation li:first-child {
   display: block;
   position: absolute;
-  right: 10px;
+  right: 20px;
   top: 20px;
   border-top: none;
 }
@@ -72,11 +82,25 @@ nav ul li a {
 }
 
 .responsive .ham {
-  color: #056e76;
+  color: #03494e;
 }
 
 .navigation .active {
   color: #e7745f;
+}
+
+nav a:hover {
+  color: #03494e;
+}
+
+footer {
+  background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 8pt;
 }
 
 /* nav {
@@ -129,6 +153,59 @@ nav a:hover {
   color: white;
 } */
 
+/*-----Home Page-----*/
+
+.home_page {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.home_figure {
+  margin-top: 0px;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 500;
+  font-size: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home_herodiv_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home_figure {
+  position: relative;
+}
+
+.home_figcaption h2 {
+  padding: 8px;
+  margin: 0px;
+}
+
+.home_figcaption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  /* padding: 50px 10px; */
+  position: absolute;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.home_herodiv_img_film::after {
+  background-color: #ffe2ad70;
+  content: "";
+  position: absolute;
+  /* max-width: 1080px;
+  height: 543px; */
+  top: 0px;
+  right: 0px;
+  bottom: 13px;
+  left: 0px;
+}
+
 /*-----JOIN PAGE-----*/
 
 .form {
@@ -142,8 +219,12 @@ nav a:hover {
 .join_title {
   color: black;
   font-size: 23px;
+  padding-left: 25px;
+  padding-top: 25px;
   padding-bottom: 0px;
   margin: 0;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
 }
 
 form {
@@ -162,7 +243,8 @@ fieldset {
 
 fieldset legend {
   padding: 5px;
-  font-family: "Rubik", serif;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
   font-size: 20px;
 }
 
@@ -170,7 +252,7 @@ form label,
 form div label,
 form div {
   font-size: 16px;
-  font-family: "Comfortaa", Lato, sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
 form input[type="text"],
@@ -297,7 +379,8 @@ form input[type="submit"] {
   color: white;
   width: 100%;
   margin: 20px 0px;
-  font-family: "Rubik", serif;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
   border: none;
   font-size: 18px;
   padding: 20px 0px;

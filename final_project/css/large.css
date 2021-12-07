@@ -3,9 +3,7 @@
     float: right;
     display: flex;
     /* flex-direction: row; */
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20pt;
+    font-size: 16pt;
 
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +21,21 @@
 
   .navigation li:first-child {
     display: none;
+  }
+
+  ul {
+    margin: 20px;
+    padding-right: 20px;
+  }
+
+  header img {
+    width: 204px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    font-size: 12pt;
   }
 
   /* .nav_list {
