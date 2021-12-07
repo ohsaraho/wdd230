@@ -10,4 +10,18 @@
   footer {
     font-size: 10pt;
   }
+
+  /*-----Home Page-----*/
+
+  .home_page_img_container h2 {
+    font-size: 28pt;
+  }
+
+  .home_join_link {
+    font-size: 20pt;
+  }
+
+  /* .home_herodiv_img_film::after {
+    bottom: 10px;
+  } */
 }

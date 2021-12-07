@@ -38,6 +38,20 @@
     font-size: 12pt;
   }
 
+  /*-----Home Page-----*/
+
+  .home_page_img_container h2 {
+    font-size: 40pt;
+  }
+
+  .home_join_link {
+    font-size: 25pt;
+  }
+
+  /* .home_herodiv_img_film::after {
+    bottom: 13px;
+  } */
+
   /* .nav_list {
     border-top: 1px solid white;
     width: 100%;
