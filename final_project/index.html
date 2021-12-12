@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us -</title>
+    <title>Home -</title>
     <meta name="description" content="">
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Red+Hat+Text:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/menu_bar.js"></script>
     <script defer src="js/dates.js"></script>
+    <script defer src="js/weather_api.js"></script>
+
 
 </head>
 <body>
@@ -20,9 +22,9 @@
             <img src="images/logo.png" alt="Chamber of Commerce logo">
             <ul class="navigation">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
-                <li class="nav_list"><a href="index.html">HOME</a></li>
+                <li class="nav_list"><a class="active" href="./">HOME</a></li>
                 <li class="nav_list"><a href="city.html">SALT LAKE CITY</a></li>
-                <li class="nav_list"><a class="active" href="join.html">JOIN</a></li>
+                <li class="nav_list"><a href="join.html">JOIN</a></li>
                 <li class="nav_list"><a href="directory.html">DIRECTORY</a></li>
                 <li class="nav_list"><a href="contact.html">CONTACT US</a></li>
             </ul>
@@ -44,47 +46,120 @@
             <h2>Welcome to Salt Lake City!</h2>
             <a class="home_join_link" href="join.html" target="_blank">JOIN</a>
         </div>
-    </main>
-    <div class="contact_info">      
-            <div class="info">
-                <ul class="city_info">
-                    <li>
-                        <h3>Weather Life Better</h3>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="images/map_pointer1.png" alt="Map pointer icon">
-                            30 N 1st E
-                            <div>Preston, ID 83263</div>
+        <div class="home_information">
+            <section class="about_us">
+                <h2>About Us</h2>
+                <img src="images/about_us.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an.Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an.
+                </p>
+            </section>
+            <section class="weather_forcast_events">
+                <div>
+                    <h2>Current Weather</h2>
+                    <div class="cities_weather">
+                        <section class="weather_sum">
+                            <p class="weather_sum_name">Currently:</p>
+                            <p class="weather_sum_input" id="current_weather"></p>
+                            <p class="weather_sum_name">Current temp:</p>    
+                            <p class="weather_sum_input" id="current_temp"></p>
+                            <p class="weather_sum_name">Humidity:</p>
+                            <p class="weather_sum_input" id="humidity"></p>     
+                        </section>
+                    </div>
+                    <h2 class="forecast_title">3 Day Forecast</h2>
+                    <div class="weather_grid">
+                        <div class="grid-col">
+                            <span class="col-head1"></span>
+                            <img class="weather_icon1" src="images/placeholder_icon.png" alt="Weather icon">
+                            <span class="weather_data1"></span>
                         </div>
-                    </li>
-                </ul>
-                <ul class="city_info">   
-                    <li>
-                        <div>
-                            <img src="images/telephone1.png" alt="Telephone icon">
-                            (999) 999-999
+                        <div class="grid-col">
+                            <span class="col-head2"></span>
+                            <img class="weather_icon2" src="images/placeholder_icon.png" alt="Weather icon">
+                            <span class="weather_data2"></span>
                         </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="images/email1.png" alt="Email icon">
-                            weatherlifebetter@wlb.com
+                        <div class="grid-col">
+                            <span class="col-head3"></span>
+                            <img class="weather_icon3" src="images/placeholder_icon.png" alt="Weather icon">
+                            <span class="weather_data3"></span>
                         </div>
-                    </li>
-                </ul>
-                <ul class="icons">  
-                    <li>
-                        <div>
-                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="images/facebook.png" alt="Facebook icon"></a>
-                            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><img src="images/pinterest.png" alt="Pinterest icon"></a>
-                            <a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="images/twitter.png" alt="Twitter icon"></a>
-                            <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer"><img src="images/whatsapp.png" alt="WhatsApp icon"></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                    <div class="home_upcoming_events">
+                        <h2>Upcoming Events</h2>
+                        <p>Event 1</p>
+                        <p>Event 2</p>
+                        <p>Event 3</p>
+                    </div>
+                </div>
+            </section>
+            <section class="advertisments">
+                <h2>Advertisments</h2>
+                <div class="img_row">
+                    <div class="img_column">
+                        <img src="images/adver_placeholder.jpg" alt="">
+                    </div>
+                    <div class="img_column">
+                        <img src="images/adver_placeholder.jpg" alt="">
+                    </div>
+                    <div class="img_column">
+                        <img src="images/adver_placeholder.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="contact_information">
+                <h2>Contact Information</h2>
+                <div class="contact_info">
+                    <div class="info">
+                        <ul class="city_info">
+                            <li>
+                                <p>Salt Lake City - Chamber of Commerce</p>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/map_pointer1.png" alt="Map pointer icon">
+                                    200 N 700 E
+                                    <div>Salt Lake City, Utah 84044</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="city_info">   
+                            <li>
+                                <div>
+                                    <img src="images/telephone1.png" alt="Telephone icon">
+                                    (999) 999-999
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/email1.png" alt="Email icon">
+                                    saltlakecommerce@slc.com
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="city_icons">
+                        <ul class="icons">  
+                            <li>
+                                <div>
+                                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><img src="images/facebook.png" alt="Facebook icon"></a>
+                                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img src="images/instagram.png" alt="Instagram icon"></a>
+                                    <a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="images/twitter.png" alt="Twitter icon"></a>
+                                    <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><img src="images/pinterest.png" alt="Pinterest icon"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
+    </main>
     <footer>
         <h3>&copy; Salt Lake City - Chamber of Commerce | Attributions
             <h3>Last Modified: <span id="last_modified"></span></h3>

@@ -155,10 +155,13 @@ nav a:hover {
 
 /*-----Home Page-----*/
 
-.home_page_img_container {
+.home_page {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.home_page_img_container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,6 +260,228 @@ nav a:hover {
   bottom: 20px;
 }
 
+.home_information {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  margin: 20px 0px;
+}
+
+.home_information h2 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 18pt;
+  text-align: center;
+}
+
+.home_information .about_us {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 12pt;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+.home_information .weather_forcast_events,
+.home_information .contact_information {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16pt;
+  border: 2px solid black;
+}
+
+/* .home_information .advertisments { */
+/* align-items: center;
+  justify-content: center; */
+/* display: inline-block; */
+
+/* margin-left: auto;
+  margin-right: auto; */
+/* border: 2px solid black; */
+/* } */
+
+/* .home_information div {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+} */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.img_column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that sits next to each other */
+.img_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.home_information .advertisments img {
+  width: 100%;
+  height: auto;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.home_information .advertisments {
+  border: 2px solid black;
+}
+
+.weather_sum {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #b7f5f5;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+.weather_sum h2 {
+  grid-column: span 2;
+  font-size: 18pt;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+}
+
+.weather_sum .weather_sum_name {
+  grid-column: 1;
+  font-size: 11pt;
+  font-family: "Red Hat Text", sans-serif;
+  color: black;
+  text-align: right;
+  margin: 5px 0px;
+}
+
+.weather_sum .weather_sum_input {
+  font-size: 11pt;
+  font-family: "Red Hat Text", sans-serif;
+  grid-column: 2;
+  padding-left: 10px;
+  text-align: left;
+  color: #0d2c2c;
+  margin: 5px 0px;
+}
+
+.forecast_title {
+  display: block;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 18pt;
+  text-align: center;
+  color: black;
+}
+
+.col-head1,
+.col-head2,
+.col-head3,
+.col-head4,
+.col-head5 {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid rgb(44, 44, 44);
+  text-align: center;
+  background-color: #149090;
+  font-size: 18pt;
+  color: white;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.weather_data1,
+.weather_data2,
+.weather_data3,
+.weather_data4,
+.weather_data5 {
+  display: block;
+  padding: 10px 5px;
+  font-size: 16pt;
+  color: black;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.weather_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  padding-bottom: 25px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather_icon1,
+.weather_icon2,
+.weather_icon3,
+.weather_icon4,
+.weather_icon5 {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-col {
+  background-color: white;
+  border: 0.75px solid rgb(44, 44, 44);
+  text-align: center;
+}
+
+.contact_information {
+  background-color: #b7f5f5;
+}
+
+.contact_information h2 {
+  text-align: center;
+  align-items: center;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 18pt;
+}
+
+.info .city_info,
+.city_icons .icons {
+  list-style: none;
+
+  font-size: 11pt;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.info .city_info {
+  margin: 20px;
+  padding: 0px 30px;
+}
+
+.city_icons .icons {
+  padding-left: 40px;
+  padding-top: 0px;
+}
+
+.icons div a {
+  padding: 0px 8px;
+}
+
+.city_icons img {
+  box-sizing: border-box;
+  width: 48px;
+  height: auto;
+}
+
+.city_icons {
+  margin-bottom: 20px;
+}
 /*-----JOIN PAGE-----*/
 
 .form {

@@ -24,4 +24,100 @@
   /* .home_herodiv_img_film::after {
     bottom: 10px;
   } */
+
+  .home_information {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .home_information section:nth-child(1) {
+    grid-column: span 1;
+  }
+
+  .home_information section:nth-child(2) {
+    grid-column: span 2;
+  }
+
+  .home_information section:nth-child(3) {
+    grid-column: span 3;
+  }
+
+  .home_information section:nth-child(4) {
+    grid-column: span 3;
+  }
+
+  .contact_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .city_icons img {
+    width: 64px;
+  }
+
+  .city_icons {
+    margin-bottom: 0px;
+  }
+
+  .contact_information h2 {
+    font-size: 25pt;
+  }
+
+  .info .city_info,
+  .city_icons .icons {
+    font-size: 15pt;
+  }
+
+  .city_icons .icons {
+    padding-left: 100px;
+    padding-top: 0px;
+  }
+
+  .weather_sum h2 {
+    grid-column: span 2;
+    font-size: 25pt;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
+  }
+
+  .weather_sum .weather_sum_name {
+    grid-column: 1;
+    font-size: 15pt;
+    font-family: "Red Hat Text", sans-serif;
+    color: black;
+    text-align: right;
+    margin: 5px 0px;
+  }
+
+  .weather_sum .weather_sum_input {
+    font-size: 15pt;
+    font-family: "Red Hat Text", sans-serif;
+    grid-column: 2;
+    padding-left: 10px;
+    text-align: left;
+    color: #0d2c2c;
+    margin: 5px 0px;
+  }
+
+  .forecast_title {
+    font-size: 25pt;
+  }
+
+  /* .contact_information {
+    clear: left;
+  } */
+
+  /* .info .city_info,
+  .info .icons {
+    padding-left: 100px;
+    padding-right: 50px;
+  } */
+
+  /* .city_info li h3 {
+    padding-top: 33px;
+  } */
 }
