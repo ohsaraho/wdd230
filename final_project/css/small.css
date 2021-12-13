@@ -843,3 +843,10 @@ form input[type="submit"]:hover {
 .thanks_background {
   background-color: #e0a78f;
 } */
+
+/*-----Directory PAGE-----*/
+.directory_page {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
