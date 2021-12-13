@@ -23,7 +23,7 @@
     display: none;
   }
 
-  ul {
+  .nav_container ul {
     margin: 20px;
     padding-right: 20px;
   }

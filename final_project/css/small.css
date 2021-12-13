@@ -24,13 +24,13 @@ h1 {
   margin: 0px;
 }
 
-ul {
+.nav_container ul {
   margin: 0px;
   padding-left: 0px;
   padding-top: 10px;
 }
 
-nav {
+.nav_container {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +38,7 @@ nav {
   font-weight: 500;
 }
 
-nav ul {
+.nav_container ul {
   list-style: none;
 }
 
@@ -47,7 +47,7 @@ nav ul {
   padding: 10px 10px;
 }
 
-nav ul li a {
+.nav_container ul li a {
   color: white;
   text-decoration: none;
 }
@@ -89,7 +89,7 @@ nav ul li a {
   color: #e7745f;
 }
 
-nav a:hover {
+.nav_container a:hover {
   color: #03494e;
 }
 
@@ -269,18 +269,30 @@ nav a:hover {
 }
 
 .home_information h2 {
+  text-align: center;
+}
+
+.about_us {
+  border: 2px solid black;
+  padding: 10px 30px;
+}
+
+.about_us h2 {
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
   font-size: 18pt;
   text-align: center;
 }
 
-.home_information .about_us {
+.about_us img {
+  max-width: 300px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.about_us p {
   font-family: "Red Hat Text", sans-serif;
   font-size: 12pt;
-  border: 2px solid black;
-  box-sizing: border-box;
-  padding: 10px 30px;
 }
 
 .home_information .weather_forcast_events,
@@ -401,6 +413,7 @@ nav a:hover {
   font-size: 18pt;
   color: white;
   font-family: "Red Hat Text", sans-serif;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .weather_data1,
@@ -422,6 +435,7 @@ nav a:hover {
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+  grid-gap: 8px;
 }
 
 .weather_icon1,
@@ -437,6 +451,7 @@ nav a:hover {
   background-color: white;
   border: 0.75px solid rgb(44, 44, 44);
   text-align: center;
+  border-radius: 10px;
 }
 
 .contact_information {
@@ -462,11 +477,13 @@ nav a:hover {
 .info .city_info {
   margin: 20px;
   padding: 0px 30px;
+  grid-column: 1;
 }
 
 .city_icons .icons {
   padding-left: 40px;
   padding-top: 0px;
+  grid-column: 2;
 }
 
 .icons div a {
@@ -482,6 +499,84 @@ nav a:hover {
 .city_icons {
   margin-bottom: 20px;
 }
+
+/* .join_member_title {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+.tabContainer {
+  width: 100%;
+  height: auto;
+}
+.tabContainer .buttonContainer button {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18pt;
+  background-color: #eee;
+}
+.tabContainer .buttonContainer button:hover {
+  background-color: #d7d4d4;
+}
+.tabContainer .tabLevels {
+  height: 85%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding-top: 105px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 22px;
+  display: none;
+} */
+
+/* [data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
+
+.tab:hover {
+  background-color: #aaa;
+}
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+} */
+
 /*-----JOIN PAGE-----*/
 
 .form {
@@ -628,7 +723,8 @@ input[type="radio"] {
   margin-bottom: 20px;
 }
 
-input[type="radio"]:hover {
+input[type="radio"]:hover,
+.radio_options:hover {
   cursor: pointer;
 }
 
@@ -642,6 +738,68 @@ input[type="radio"]:hover {
 [type="radio"].with-gap:checked + span:after {
   background-color: #abd636;
 } */
+
+.tab_levels {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: auto;
+  box-sizing: border-box;
+}
+.tab_levels input[type="radio"] {
+  display: none;
+}
+.tab_levels label {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 10pt;
+  padding: 18px;
+  background: #0d7e82;
+  color: white;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.tab_levels label:nth-child(2) {
+  border-radius: 15px 0px 0px 0px;
+}
+
+.tab_levels label:nth-child(5) {
+  border-radius: 0px 15px 0px 0px;
+}
+
+.tab_levels .tab_info h2 {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 10pt;
+}
+
+.tab_levels .tab_info {
+  padding: 25px;
+  background-color: #fff;
+  order: 1;
+  display: none;
+  grid-column: span 4;
+  font-size: 8pt;
+  color: black;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.tab_levels ul li {
+  padding: 0px 0px 20px 0px;
+}
+
+.tab_levels input[type="radio"]:checked + label + .tab_info {
+  display: block;
+}
+
+.tab_levels input[type="radio"]:checked + label {
+  background: #b7f5f5;
+  color: black;
+}
+
+.tab_levels label:hover {
+  cursor: pointer;
+}
 
 form label span.title_top,
 form div span.title_top,
