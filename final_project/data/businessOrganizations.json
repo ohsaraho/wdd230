@@ -1,0 +1,103 @@
+{
+    "businesses": [
+      {
+        "businessName": "Himalayan Kitchen",
+        "logo": "himalayanKitchen.jpg",
+        "phoneNumber": "801-328-2077",
+        "address": "360 State St",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84111",
+        "websiteURL": "https://www.himalayankitchen.com/",
+        "description": "Delicious award winning Indian Cuisine"
+      },
+      {
+        "businessName": "Megaplex Theatres",
+        "logo": "megaplex.jpg",
+        "phoneNumber": "801-325-7500",
+        "address": "400 W 200 S",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84101",
+        "websiteURL": "https://www.megaplextheatres.com/gateway",
+        "description": "The best local theatre to catch all the new and upcoming movies"
+      },
+      {
+        "businessName": "Little Saigon",
+        "logo": "littleSaigon.jpg",
+        "phoneNumber": "801-906-8630",
+        "address": "2021 Windsor Street",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84105",
+        "websiteURL": "https://www.littlesaigonutah.com/",
+        "description": "Home to one of the best vegan Banh Mi sandwhiches and Pho"
+      },
+      {
+        "businessName": "Target",
+        "logo": "target.jpg",
+        "phoneNumber": "801-401-9562",
+        "address": "1110 S 300 W",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84101",
+        "websiteURL": "https://www.target.com/",
+        "description": "A place to get all things clothes, electronics, toys, food, and more"
+      },
+      {
+        "businessName": "Cafe Rio",
+        "logo": "cafeRio.jpg",
+        "phoneNumber": "801-924-3800",
+        "address": "532 E 400 S",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84102",
+        "websiteURL": "https://www.caferio.com/",
+        "description": "One of best restaurants to eat delicious burritos, tacos, salad, and many more"
+      },
+      {
+        "businessName": "Sprouts Farmers Market",
+        "logo": "sprouts.jpg",
+        "phoneNumber": "801-364-1602",
+        "address": "216 S. 700 East",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84102",
+        "websiteURL": "https://www.sprouts.com/",
+        "description": "A great place to by all things groceries and buy in bulk"
+      },
+      {
+        "businessName": "AlphaGraphics",
+        "logo": "alphaGraphics.jpg",
+        "phoneNumber": "801-364-8451",
+        "address": "117 W 900 S",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84101",
+        "websiteURL": "https://www.alphagraphics.com/",
+        "description": "Provides service for all your printing needs"
+      },
+      {
+        "businessName": "Crumbl Cookies",
+        "logo": "crumblCookie.jpg",
+        "phoneNumber": "385-501-1777",
+        "address": "675 E 2100 S",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84106",
+        "websiteURL": "https://crumblcookies.com/",
+        "description": "The best place to get all the different cookie creations"
+      },
+      {
+        "businessName": "Natural Grocers",
+        "logo": "naturalGrocers.jpg",
+        "phoneNumber": "801-364-2000",
+        "address": "645 E 400 S A",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zipCode": "84102",
+        "websiteURL": "https://www.naturalgrocers.com/",
+        "description": "A great place to find organic foods, supplements and much more"
+      }
+    ]
+  }
