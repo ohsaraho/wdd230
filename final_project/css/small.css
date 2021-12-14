@@ -1,6 +1,6 @@
-/* * {
+* {
   margin: 0px;
-} */
+}
 
 /* font-family: 'Arima Madurai', cursive; */
 
@@ -100,12 +100,15 @@ h1 {
 
 footer {
   background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 20px;
   color: white;
   text-align: center;
   font-family: "Red Hat Text", sans-serif;
   font-size: 8pt;
+}
+
+footer h3 {
+  padding: 6px;
 }
 
 /* nav {
@@ -197,7 +200,7 @@ div.weatherAlerts h1 {
 
 div.weatherAlerts h2 {
   font-size: 10pt;
-  padding: 0px;
+  padding-top: 10px;
 }
 
 div.weatherAlerts p {
@@ -333,7 +336,11 @@ div.weatherAlerts .close:hover {
 }
 
 .home_information h2 {
+  font-size: 18pt;
+  font-family: "Red Hat Text", sans-serif;
   text-align: center;
+  padding: 20px;
+  font-weight: 500px;
 }
 
 .about_us {
@@ -343,13 +350,13 @@ div.weatherAlerts .close:hover {
   /* padding: 10px 30px; */
 }
 
-.about_us h2 {
+/* .about_us h2 {
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
   font-size: 18pt;
   text-align: center;
   padding: 10px 30px;
-}
+} */
 
 .about_us img {
   width: 100%;
@@ -370,7 +377,7 @@ div.weatherAlerts .close:hover {
 .home_information .weather_forcast_events,
 .home_information .contact_information {
   font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 16pt;
   border: 2px solid black;
 }
@@ -394,19 +401,56 @@ div.weatherAlerts .close:hover {
 /* * {
   box-sizing: border-box;
 } */
-.advertisments {
+
+.home_upcoming_events {
   font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
+  padding: 0px 20px 20px 20px;
 }
 
-.advertisments h2 {
+.home_upcoming_events h3 {
   font-size: 18pt;
+  border-bottom: 0.5px solid black;
+  padding-bottom: 8px;
+  font-weight: 500px;
 }
+
+.home_upcoming_events h4 {
+  font-size: 14pt;
+  padding: 8px 10px;
+}
+
+.home_upcoming_events h5 {
+  font-size: 12pt;
+  padding: 0px 10px 8px 10px;
+}
+
+.home_upcoming_events p {
+  font-size: 14pt;
+  padding: 4px;
+}
+
+.home_upcoming_events div {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 18px;
+  margin: 15px 0px;
+  background-color: #41d4d4;
+}
+
+.advertisments {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500px;
+}
+
+/* .advertisments h2 {
+  font-size: 24pt;
+} */
 
 .img_row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
+  margin: 0px 10px 10px 10px;
 }
 
 .img_column .adver_img {
@@ -490,19 +534,19 @@ div.weatherAlerts .close:hover {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 20px 15px;
   border: 1px solid grey;
   border-radius: 15px;
 }
 
 .weather_sum h2 {
   grid-column: span 2;
-  font-size: 18pt;
-  color: black;
+  /* font-size: 18pt;
+  color: black; */
   border-bottom: 2px solid black;
-  padding-bottom: 8px;
+  /* padding: 8px;
   font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
+  font-weight: 500px; */
 }
 
 .weather_sum .weather_sum_name {
@@ -524,15 +568,15 @@ div.weatherAlerts .close:hover {
   margin: 5px 0px;
 }
 
-.forecast_title {
+/* .forecast_title {
   display: block;
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
-  padding-top: 20px;
+  padding: 20px;
   font-size: 18pt;
   text-align: center;
   color: black;
-}
+} */
 
 .col-head1,
 .col-head2,
@@ -565,7 +609,7 @@ div.weatherAlerts .close:hover {
 .weather_grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
@@ -592,13 +636,13 @@ div.weatherAlerts .close:hover {
   background-color: #b7f5f5;
 }
 
-.contact_information h2 {
+/* .contact_information h2 {
   text-align: center;
   align-items: center;
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
   font-size: 18pt;
-}
+} */
 
 .info .city_info,
 .city_icons .icons {

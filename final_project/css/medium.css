@@ -12,6 +12,10 @@
   }
 
   /*-----Home Page-----*/
+  .home_information h2 {
+    font-size: 25pt;
+  }
+
   div.weatherAlerts h1 {
     font-size: 18pt;
   }
@@ -60,10 +64,6 @@
     grid-column: span 3;
   }
 
-  .about_us h2 {
-    font-size: 25pt;
-  }
-
   .about_us p {
     font-size: 15pt;
   }
@@ -81,10 +81,6 @@
 
   .city_icons {
     margin-bottom: 0px;
-  }
-
-  .contact_information h2 {
-    font-size: 25pt;
   }
 
   .info .city_info,
@@ -124,10 +120,6 @@
     text-align: left;
     color: #0d2c2c;
     margin: 5px 0px;
-  }
-
-  .forecast_title {
-    font-size: 25pt;
   }
 
   /* .contact_information {
