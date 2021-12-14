@@ -12,6 +12,21 @@
   }
 
   /*-----Home Page-----*/
+  div.weatherAlerts h1 {
+    font-size: 18pt;
+  }
+
+  div.weatherAlerts h2 {
+    font-size: 16pt;
+  }
+
+  div.weatherAlerts p {
+    font-size: 15pt;
+  }
+
+  div.weatherAlerts .close {
+    font-size: 20pt;
+  }
 
   .home_page_img_container h2 {
     font-size: 28pt;
@@ -128,6 +143,30 @@
   /* .city_info li h3 {
     padding-top: 33px;
   } */
+
+  /* .img_column {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+  } */
+
+  .img_column:nth-child(1) {
+    grid-column: span 1;
+    width: 100%;
+  }
+
+  .img_column:nth-child(2) {
+    grid-column: span 1;
+    width: 100%;
+  }
+  .img_column:nth-child(3) {
+    grid-column: span 1;
+    width: 100%;
+  }
+
+  .img_column .home_advertisement_links {
+    font-size: 10pt;
+  }
 
   /*-----Join Page-----*/
 

@@ -3,8 +3,7 @@
     float: right;
     display: flex;
     /* flex-direction: row; */
-    font-size: 16pt;
-
+    font-size: 17pt;
     margin-left: auto;
     margin-right: auto;
   }
@@ -24,8 +23,8 @@
   }
 
   .nav_container ul {
-    margin: 20px;
-    padding-right: 20px;
+    margin-top: 20px;
+    padding-right: 15px;
   }
 
   header img {
@@ -126,4 +125,8 @@
     margin-left: auto;
     margin-right: auto;
   } */
+
+  .img_column .home_advertisement_links {
+    font-size: 18pt;
+  }
 }
