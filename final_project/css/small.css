@@ -201,9 +201,16 @@ div.weatherAlerts h1 {
 div.weatherAlerts h2 {
   font-size: 10pt;
   padding-top: 10px;
+  padding-right: 10px;
 }
 
 div.weatherAlerts p {
+  padding-top: 10px;
+  font-size: 11pt;
+}
+
+div.weatherAlerts ul li {
+  padding-top: 10px;
   font-size: 11pt;
 }
 

@@ -28,6 +28,10 @@
     font-size: 15pt;
   }
 
+  div.weatherAlerts ul li {
+    font-size: 15pt;
+  }
+
   div.weatherAlerts .close {
     font-size: 20pt;
   }
