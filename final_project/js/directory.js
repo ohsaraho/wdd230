@@ -1,5 +1,8 @@
 const businessjson = 'data/businessOrganizations.json';
 
+const gridButton = document.querySelector('.gridView');
+const listButton = document.querySelector('.listView');
+const displayView = document.querySelector('.displayGrid');
 
 
 fetch(businessjson)
@@ -27,7 +30,7 @@ fetch(businessjson)
     pPhone.textContent = business.phoneNumber;
     pAddress.textContent = business.address;
     pCityZip.textContent = `${business.city}, ${business.state} ${business.zipCode}`;
-    aURL.textContent = business.websiteURL;
+    aURL.textContent = business.businessName;
     aURL.setAttribute('href', `${business.websiteURL}`);
     pDescript.textContent = business.description;
     
@@ -47,3 +50,14 @@ fetch(businessjson)
     
   });
 });
+
+document.querySelector('.gridView').addEventListener('click', () => { 
+  // document.querySelector(".listView").style.display = "none"; 
+  document.querySelector(".displayGrid").style.display = "block"; 
+}, false);
+
+document.querySelector('.listView').addEventListener('click', () => { 
+  // document.querySelector(".listView").style.display = "none";
+  document.querySelector(".displayGrid").style.display = "none";  
+  document.querySelector(".displayView").style.display = "block"; 
+}, false);

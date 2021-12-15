@@ -191,4 +191,20 @@
   .tab_levels label:nth-child(11) {
     border-radius: 0px 15px 0px 0px;
   }
+
+  /*-----Directory Page-----*/
+  .displayGrid .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .displayView {
+    grid-column: span 3;
+    grid-row: auto;
+  }
+
+  .displayGrid {
+    display: none;
+  }
+  .displayView {
+    display: none;
+  }
 }

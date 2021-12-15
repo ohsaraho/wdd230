@@ -129,4 +129,9 @@
   .img_column .home_advertisement_links {
     font-size: 18pt;
   }
+
+  /*-----Directory Page-----*/
+  .displayGrid .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
