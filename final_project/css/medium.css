@@ -1,8 +1,4 @@
 @media only screen and (min-width: 32.5rem) {
-  /* .navigation a {
-    font-size: 18pt;
-  } */
-
   .navigation {
     font-size: 18pt;
   }
@@ -43,10 +39,6 @@
   .home_join_link {
     font-size: 20pt;
   }
-
-  /* .home_herodiv_img_film::after {
-    bottom: 10px;
-  } */
 
   .home_information {
     grid-template-columns: 1fr 1fr 1fr;
@@ -126,26 +118,6 @@
     margin: 5px 0px;
   }
 
-  /* .contact_information {
-    clear: left;
-  } */
-
-  /* .info .city_info,
-  .info .icons {
-    padding-left: 100px;
-    padding-right: 50px;
-  } */
-
-  /* .city_info li h3 {
-    padding-top: 33px;
-  } */
-
-  /* .img_column {
-    float: left;
-    width: 33.33%;
-    box-sizing: border-box;
-  } */
-
   .img_column:nth-child(1) {
     grid-column: span 1;
     width: 100%;
@@ -193,18 +165,73 @@
   }
 
   /*-----Directory Page-----*/
-  .displayGrid .cards {
+  div.cards {
     grid-template-columns: 1fr 1fr;
   }
-  .displayView {
-    grid-column: span 3;
-    grid-row: auto;
+
+  /*-----Contact Page-----*/
+
+  .board_members {
+    grid-template-columns: 1fr 1fr;
   }
 
-  .displayGrid {
-    display: none;
+  /*-----City Page-----*/
+  .city .historical_info img {
+    float: right;
   }
-  .displayView {
-    display: none;
+
+  .city .historical_info img {
+    clear: right;
+  }
+
+  .current_events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .current_events section:nth-child(4) {
+    grid-column: span 3;
+  }
+
+  .city h2 {
+    font-size: 25pt;
+    padding: 20px;
+  }
+
+  .city h3 {
+    font-size: 18pt;
+  }
+
+  .city h4 {
+    font-size: 13pt;
+  }
+
+  .city p {
+    font-size: 18pt;
+    padding: 10px 0px;
+  }
+
+  .historical_info .historic_img {
+    margin: 0px 30px 30px 0px;
+  }
+
+  /*-----Attributions Page-----*/
+
+  .attributions_pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .attributions legend {
+    font-size: 17pt;
+  }
+
+  .attributions h3 {
+    font-size: 17pt;
+  }
+
+  .attributions p {
+    font-size: 14pt;
   }
 }

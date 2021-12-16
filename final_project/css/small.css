@@ -2,12 +2,6 @@
   margin: 0px;
 }
 
-/* font-family: 'Arima Madurai', cursive; */
-
-/* * {
-  margin: 0px auto;
-} */
-
 header img {
   width: 170px;
   height: auto;
@@ -21,7 +15,6 @@ header {
   background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
   margin: 0px;
   height: auto;
-  /* padding: 20px 20px; */
 }
 
 h1 {
@@ -59,7 +52,6 @@ h1 {
 
 .nav_list {
   border-top: 1px solid white;
-  /* width: 100%; */
 }
 
 .navigation {
@@ -111,76 +103,14 @@ footer h3 {
   padding: 6px;
 }
 
-/* nav {
-  margin: 0 auto;
-  background: linear-gradient(#17a8a8, #41d4d4, #17a8a8);
-  justify-content: space-between;
-}
-
-.navigation {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.navigation li:first-child {
-  display: block;
-}
-
-.navigation li {
-  display: none;
-}
-
-nav a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 15px;
+footer a {
+  color: white;
   text-decoration: none;
-  font-size: 15pt;
-  font-family: "Rubik", serif;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-nav a:hover {
-  color: white;
-  background-color: #83e22a;
+footer a:hover {
+  color: #e7745f;
 }
-
-.responsive li {
-  display: block;
-}
-
-.responsive .ham {
-  background-color: #6dc51b;
-  color: white;
-}
-
-.navigation .active {
-  background-color: #e7745f;
-  color: white;
-} */
-
-/* .weatherAlerts {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-}
-
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: black;
-} */
 
 /*-----Home Page-----*/
 
@@ -245,6 +175,7 @@ div.weatherAlerts .close:hover {
 .home_herodiv_img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .home_page_img_container .color_overlay {
@@ -252,6 +183,7 @@ div.weatherAlerts .close:hover {
   height: 100%;
   background-color: #ffe2ad70;
   position: absolute;
+  border-radius: 5px;
 }
 
 .home_page_img_container h2 {
@@ -266,58 +198,6 @@ div.weatherAlerts .close:hover {
 .home_page_img_container .home_join_link {
   z-index: 1;
 }
-
-/* .home_page {
-  max-width: 1080px;
-  margin: 0 auto;
-}
-
-.home_figure {
-  margin-top: 0px;
-  font-family: "Arima Madurai", cursive;
-  font-weight: 500;
-  font-size: 12pt;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  margin-bottom: 0px;
-}
-
-.home_herodiv_img {
-  max-width: 100%;
-  height: auto;
-}
-
-.home_figure {
-  position: relative;
-}
-
-.home_figcaption h2 {
-  padding: 8px;
-  margin: 0px;
-}
-
-.home_figcaption {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  padding: 50px 10px;
-  position: absolute;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.home_herodiv_img_film::after {
-  background-color: #ffe2ad70;
-  content: "";
-  max-height: 543px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-} */
 
 .home_join_link {
   text-decoration: none;
@@ -340,6 +220,7 @@ div.weatherAlerts .close:hover {
   grid-template-rows: auto;
   grid-gap: 30px;
   margin: 20px 0px;
+  border-radius: 10px;
 }
 
 .home_information h2 {
@@ -353,32 +234,21 @@ div.weatherAlerts .close:hover {
 .about_us {
   border: 2px solid black;
   margin: 0px;
-
-  /* padding: 10px 30px; */
+  border-radius: 10px;
 }
-
-/* .about_us h2 {
-  font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
-  font-size: 18pt;
-  text-align: center;
-  padding: 10px 30px;
-} */
 
 .about_us img {
   width: 100%;
   height: auto;
   box-sizing: border-box;
   display: block;
-  /* margin-left: auto;
-  margin-right: auto; */
   padding: 10px 30px;
 }
 
 .about_us p {
   font-family: "Red Hat Text", sans-serif;
   font-size: 12pt;
-  padding: 2px 30px;
+  padding: 20px 30px;
 }
 
 .home_information .weather_forcast_events,
@@ -387,27 +257,8 @@ div.weatherAlerts .close:hover {
   font-weight: 500px;
   font-size: 16pt;
   border: 2px solid black;
+  border-radius: 10px;
 }
-
-/* .home_information .advertisments { */
-/* align-items: center;
-  justify-content: center; */
-/* display: inline-block; */
-
-/* margin-left: auto;
-  margin-right: auto; */
-/* border: 2px solid black; */
-/* } */
-
-/* .home_information div {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-} */
-
-/* * {
-  box-sizing: border-box;
-} */
 
 .home_upcoming_events {
   font-family: "Red Hat Text", sans-serif;
@@ -447,11 +298,8 @@ div.weatherAlerts .close:hover {
 .advertisments {
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500px;
+  border-radius: 10px;
 }
-
-/* .advertisments h2 {
-  font-size: 24pt;
-} */
 
 .img_row {
   display: grid;
@@ -481,10 +329,6 @@ div.weatherAlerts .close:hover {
   border-radius: 10px;
 }
 
-/* .img_column .home_advertisement_links {
-  z-index: 1;
-} */
-
 .img_column .home_advertisement_links {
   text-decoration: none;
   color: white;
@@ -494,8 +338,6 @@ div.weatherAlerts .close:hover {
   font-size: 20pt;
   padding: 18px 20px;
   position: absolute;
-  /* right: 40px;
-  bottom: 20px; */
   border-radius: 25px;
 }
 
@@ -508,25 +350,13 @@ div.weatherAlerts .close:hover {
 .img_column {
   grid-column: span 3;
   width: 100%;
-  /* box-sizing: border-box; */
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Create three equal columns that sits next to each other */
-/* .img_row::after {
-  content: "";
-  clear: both;
-  display: grid;
-} */
-
 .home_information .advertisments img {
   width: 100%;
   height: auto;
-  /* margin: 0px 8px; */
-
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .home_information .advertisments {
@@ -548,12 +378,7 @@ div.weatherAlerts .close:hover {
 
 .weather_sum h2 {
   grid-column: span 2;
-  /* font-size: 18pt;
-  color: black; */
   border-bottom: 2px solid black;
-  /* padding: 8px;
-  font-family: "Red Hat Text", sans-serif;
-  font-weight: 500px; */
 }
 
 .weather_sum .weather_sum_name {
@@ -574,16 +399,6 @@ div.weatherAlerts .close:hover {
   color: #0d2c2c;
   margin: 5px 0px;
 }
-
-/* .forecast_title {
-  display: block;
-  font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
-  padding: 20px;
-  font-size: 18pt;
-  text-align: center;
-  color: black;
-} */
 
 .col-head1,
 .col-head2,
@@ -616,7 +431,6 @@ div.weatherAlerts .close:hover {
 .weather_grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  /* padding-bottom: 25px; */
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
@@ -642,14 +456,6 @@ div.weatherAlerts .close:hover {
 .contact_information {
   background-color: #b7f5f5;
 }
-
-/* .contact_information h2 {
-  text-align: center;
-  align-items: center;
-  font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
-  font-size: 18pt;
-} */
 
 .info .city_info,
 .city_icons .icons {
@@ -685,83 +491,6 @@ div.weatherAlerts .close:hover {
   margin-bottom: 20px;
 }
 
-/* .join_member_title {
-  font-family: "Red Hat Text", sans-serif;
-  font-weight: 500;
-  color: black;
-  text-align: center;
-}
-.tabContainer {
-  width: 100%;
-  height: auto;
-}
-.tabContainer .buttonContainer button {
-  width: 25%;
-  height: 100%;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px;
-  font-family: "Red Hat Text", sans-serif;
-  font-size: 18pt;
-  background-color: #eee;
-}
-.tabContainer .buttonContainer button:hover {
-  background-color: #d7d4d4;
-}
-.tabContainer .tabLevels {
-  height: 85%;
-  background-color: gray;
-  color: white;
-  text-align: center;
-  padding-top: 105px;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 22px;
-  display: none;
-} */
-
-/* [data-tab-content] {
-  display: none;
-}
-
-.active[data-tab-content] {
-  display: block;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-}
-
-.tabs {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  border-bottom: 1px solid black;
-}
-
-.tab {
-  cursor: pointer;
-  padding: 10px;
-}
-
-.tab.active {
-  background-color: #ccc;
-}
-
-.tab:hover {
-  background-color: #aaa;
-}
-
-.tab-content {
-  margin-left: 20px;
-  margin-right: 20px;
-} */
-
 /*-----JOIN PAGE-----*/
 
 .form {
@@ -769,6 +498,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffe2ad;
+  padding-bottom: 30px;
   box-sizing: border-box;
 }
 
@@ -841,22 +571,6 @@ form input[type="number"] {
   border-radius: 6px;
 }
 
-/* form input[type="date"],
-form input[type="range"],
-form select[name="region"] {
-  -webkit-appearance: none;
-}
-
-form input[list="storm_types"],
-form input[type="date"],
-form select[name="region"],
-form input[placeholder="mm/dd/yyyy"] {
-  -webkit-appearance: visible;
-  background-color: white;
-  border: solid 2px black;
-  width: 100%;
-} */
-
 .business_description {
   height: 150px;
 }
@@ -885,17 +599,6 @@ textarea {
   color: black;
 }
 
-/* .storm_severity {
-  display: flex;
-  align-items: center;
-  font-family: "Comfortaa", Lato, sans-serif;
-  margin-right: 10px;
-}
-
-#severityvalue {
-  padding-left: 12px;
-} */
-
 form label.radio_options {
   display: block;
   padding: 8px 15px;
@@ -912,17 +615,6 @@ input[type="radio"]:hover,
 .radio_options:hover {
   cursor: pointer;
 }
-
-/* [type="radio"]:checked + span:after,
-[type="radio"].with-gap:checked + span:after,
-[type="radio"].with-gap:checked + span:after {
-  border: 2px solid #abd636;
-}
-
-[type="radio"]:checked + span:after,
-[type="radio"].with-gap:checked + span:after {
-  background-color: #abd636;
-} */
 
 .tab_levels {
   display: grid;
@@ -956,6 +648,7 @@ input[type="radio"]:hover,
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
   font-size: 10pt;
+  padding-bottom: 10px;
 }
 
 .tab_levels .tab_info {
@@ -1011,28 +704,7 @@ form input[type="submit"]:hover {
   cursor: pointer;
 }
 
-/* .thanks_h {
-  color: black;
-  font-size: 28px;
-  padding-bottom: 0px;
-}
-
-.thanks_p {
-  text-align: center;
-  font-family: "Comfortaa", Lato, sans-serif;
-  font-size: 18px;
-  margin: 0px;
-  padding: 20px 20px;
-}
-
-.thanks_background {
-  background-color: #e0a78f;
-} */
-
 /*-----Directory PAGE-----*/
-/* div.cards {
-  margin: 0px 0px;
-} */
 
 .directory_page {
   font-family: "Red Hat Text", sans-serif;
@@ -1042,7 +714,7 @@ form input[type="submit"]:hover {
   text-align: center;
 }
 
-.listView {
+/* .listView {
   position: absolute;
   top: 140px;
   right: 150px;
@@ -1075,11 +747,6 @@ form input[type="submit"]:hover {
   color: white;
   cursor: pointer;
   background-color: #0d2c2c;
-}
-
-/* .directory_div {
-  border: 1px solid black;
-  border-radius: 25px;
 } */
 
 .directory_page h2,
@@ -1089,24 +756,15 @@ form input[type="submit"]:hover {
   font-size: 25pt;
 }
 
-.displayGrid .cards {
+div.cards {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
   grid-gap: 15px;
   margin: 20px;
   box-sizing: border-box;
-
-  /* max-width: 760px; */
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 div.cards section {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
   background-color: #d8fbfd;
   border: 3px solid black;
   border-radius: 15px;
@@ -1114,7 +772,6 @@ div.cards section {
 }
 
 div.cards h2 {
-  /* margin-top: 30px; */
   color: black;
   font-size: 22pt;
 }
@@ -1136,12 +793,6 @@ div.cards p:nth-child(6) {
   width: 100%;
   height: auto;
   display: block;
-  /* margin: 10px; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* padding: 10px 30px; */
-  /* display: block; */
-  /* box-shadow: 2px 2px 40px 5px rgb(17, 18, 24); */
 }
 
 div.cards a {
@@ -1161,40 +812,246 @@ div.cards a:hover {
   background-color: #41d4d4;
 }
 
-/* @media (min-width: 32.5rem) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
+/*-----CONTACT US PAGE-----*/
 
-  h1 {
-    font-size: 35px;
-  }
-
-  .cards h2 {
-    font-size: 22px;
-  }
-
-  .cards p {
-    font-size: 13px;
-  }
+.contact_us_info {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #41d4d4;
 }
 
-@media (min-width: 60rem) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    box-shadow: 2px 2px 40px 5px rgb(101, 103, 126);
-    margin: 15px 15px;
-  }
+.map {
+  width: 100%;
+}
+.contact_map {
+  max-width: 800px;
+  grid-column: 1;
+  padding: 30px;
+}
 
-  .cards h2 {
-    font-size: 25px;
-  }
+.contact_us_info .contact_infos {
+  width: 100%;
+  grid-column: 1;
+  text-align: center;
+  margin-top: 30px;
+}
 
-  .cards p {
-    font-size: 15px;
-  }
+.contact_us_info .city_icons {
+  grid-column: 1;
+}
 
-  footer {
-    font-size: 28px;
-  }
-} */
+.board_of {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 30px 30px 0px 30px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.board_members {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 30px;
+}
+
+.board_members h3,
+.board_members p {
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+}
+
+.h2_board {
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+  font-weight: 500px;
+}
+
+.board_members img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/*-----CONFIRMATION PAGE-----*/
+
+.confirmation {
+  padding: 30px 30px 0px 30px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.confirmation legend {
+  font-size: 30pt;
+  font-weight: 500px;
+}
+
+.confirmation p {
+  padding: 8px;
+  font-size: 22pt;
+}
+
+.confirmation img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/*-----CITY PAGE-----*/
+
+.city {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.city h2,
+.city h3,
+.city h4 {
+  font-weight: 500px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.city h2 {
+  font-size: 20pt;
+  padding: 20px;
+}
+
+.city h3 {
+  font-size: 15pt;
+}
+
+.city h4 {
+  font-size: 10pt;
+}
+
+.city p {
+  font-size: 16pt;
+  padding: 10px 0px;
+}
+.city ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city .historical_info,
+.demographic_info,
+.current_events {
+  background-color: #d8fbfd;
+  border-radius: 15px;
+  padding: 28px;
+}
+
+.hero_city_image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.historical_info .historic_img {
+  margin: 0px;
+}
+
+.historical_info h3 {
+  margin-top: 20px;
+}
+
+.city .historical_info img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 30px #3b3f3f;
+  border-radius: 12px;
+}
+
+.city .demographic_info {
+  margin-top: 25px;
+}
+
+.current_events {
+  margin: 25px 0px;
+}
+
+.current_events h2 {
+  padding: 0px;
+}
+
+.current_events section {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+.current_events a {
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font: 8pt;
+}
+
+.current_events a:hover {
+  color: #e7745f;
+}
+
+.current_events h2 {
+  grid-column: span 3;
+}
+
+.current_events img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*-----ATTRIBUTIONS PAGE-----*/
+
+.attributions {
+  font-family: "Red Hat Text", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  background-color: #f7d1ca;
+  text-align: center;
+}
+
+.attributions legend {
+  font-size: 15pt;
+}
+
+.attributions h3 {
+  font-weight: 500px;
+  padding: 10px 0px;
+  font-size: 15pt;
+}
+
+.attributions p {
+  padding: 5px;
+  font-size: 13pt;
+}
+
+.attributions a {
+  color: black;
+  text-decoration: none;
+}
+.attributions a:hover {
+  color: #e7745f;
+}
+
+.attributions_pages {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.attributions fieldset {
+  padding: 30px;
+}
+.attributions_pages {
+  padding: 30px;
+}

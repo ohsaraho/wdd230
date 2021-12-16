@@ -51,13 +51,13 @@ fetch(businessjson)
   });
 });
 
-document.querySelector('.gridView').addEventListener('click', () => { 
-  // document.querySelector(".listView").style.display = "none"; 
-  document.querySelector(".displayGrid").style.display = "block"; 
-}, false);
+// document.querySelector('.gridView').addEventListener('click', () => { 
+//   document.querySelector(".displayGrid").style.display = "block"; 
+// }, false);
 
-document.querySelector('.listView').addEventListener('click', () => { 
-  // document.querySelector(".listView").style.display = "none";
-  document.querySelector(".displayGrid").style.display = "none";  
-  document.querySelector(".displayView").style.display = "block"; 
-}, false);
+// document.querySelector('.listView').addEventListener('click', () => { 
+//   document.querySelector(".displayGrid").style.display = "none";  
+//   document.querySelector(".displayView").style.display = "block"; 
+// }, false);
+
+

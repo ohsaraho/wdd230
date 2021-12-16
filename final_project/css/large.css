@@ -2,7 +2,6 @@
   .navigation {
     float: right;
     display: flex;
-    /* flex-direction: row; */
     font-size: 17pt;
     margin-left: auto;
     margin-right: auto;
@@ -47,91 +46,59 @@
     font-size: 25pt;
   }
 
-  /* .home_herodiv_img_film::after {
-    bottom: 13px;
-  } */
-
-  /* .nav_list {
-    border-top: 1px solid white;
-    width: 100%;
-  } */
-
-  /* .navigation {
-    display: flex;
-    width: 80%;
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .navigation li {
-    display: block;
-    flex: 1 1 auto;
-  }
-
-  .navigation li:first-child {
-    display: none;
-  }
-
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-
-    padding: 0.8rem 1rem;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .home_border_left {
-    border-left: 1px solid rgba(0, 0, 0, 0.2);
-  } */
-
-  /* header img {
-    float: left;
-  }
-
-  header::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  nav {
-    float: right;
-    margin: 0 auto;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav li {
-    display: inline-block;
-
-    padding-top: 23px;
-    margin-right: 40px;
-  }
-
-  nav a {
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 15pt;
-    font-family: "Rubik", serif;
-  }
-  .nav_container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   .img_column .home_advertisement_links {
     font-size: 18pt;
   }
 
   /*-----Directory Page-----*/
-  .displayGrid .cards {
+  div.cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*-----Contact Page-----*/
+  .contact_us_info {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact_map {
+    grid-column: 2;
+  }
+
+  .contact_us_info .contact_infos {
+    grid-column: 1;
+  }
+
+  .board_members {
+    max-width: 1080px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*-----City Page-----*/
+
+  .current_events {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .current_events section:nth-child(4) {
+    grid-column: span 1;
+  }
+
+  /*-----Attributions Page-----*/
+
+  .attributions_pages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .attributions legend {
+    font-size: 18pt;
+  }
+
+  .attributions h3 {
+    font-size: 18pt;
+  }
+
+  .attributions p {
+    font-size: 15pt;
   }
 }
