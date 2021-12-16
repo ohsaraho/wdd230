@@ -228,7 +228,7 @@ div.weatherAlerts .close:hover {
   font-family: "Red Hat Text", sans-serif;
   text-align: center;
   padding: 20px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .about_us {
@@ -254,7 +254,7 @@ div.weatherAlerts .close:hover {
 .home_information .weather_forcast_events,
 .home_information .contact_information {
   font-family: "Red Hat Text", sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16pt;
   border: 2px solid black;
   border-radius: 10px;
@@ -269,7 +269,7 @@ div.weatherAlerts .close:hover {
   font-size: 18pt;
   border-bottom: 0.5px solid black;
   padding-bottom: 8px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .home_upcoming_events h4 {
@@ -297,7 +297,7 @@ div.weatherAlerts .close:hover {
 
 .advertisments {
   font-family: "Red Hat Text", sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   border-radius: 10px;
 }
 
@@ -800,7 +800,7 @@ div.cards a {
 
   padding: 15px;
   border-radius: 20px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 18px;
   background-color: #0d7e82;
   color: white;
@@ -866,7 +866,7 @@ div.cards a:hover {
 .h2_board {
   padding: 30px 30px 0px 30px;
   text-align: center;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .board_members img {
@@ -885,7 +885,7 @@ div.cards a:hover {
 
 .confirmation legend {
   font-size: 30pt;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .confirmation p {
@@ -910,7 +910,7 @@ div.cards a:hover {
 .city h2,
 .city h3,
 .city h4 {
-  font-weight: 500px;
+  font-weight: 500;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -1025,7 +1025,7 @@ div.cards a:hover {
 }
 
 .attributions h3 {
-  font-weight: 500px;
+  font-weight: 500;
   padding: 10px 0px;
   font-size: 15pt;
 }
